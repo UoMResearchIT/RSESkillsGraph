@@ -1,5 +1,23 @@
 {
 
+
+  "Robin Long": {
+     "interests": [
+       "Python",
+       "LaTeX",
+       "R (programming language)",
+       "Ansible (software)",
+       "Bash (Unix shell)",
+       "Git",
+       "GitHub",
+       "C (programming language)",
+            "Reproducibility",
+       "Software Sustainability Institute"
+    ]
+  },
+
+
+
    "Phil Bradbury": {
      "interests": [
        "Application design",
@@ -369,7 +387,7 @@
      "Reference management software",
      "Credit",
      "Open research",
-     "Reproducible research",
+     "Reproducibility",
      "LaTeX",
      "Git",
      "Java",
