@@ -440,7 +440,9 @@
      "InfluxDB",
      "MySQL",
      "Microsoft SQL Server",
-     "Celery (software)"
+     "Celery (software)",
+     "Wagtail (CMS)",
+     "Graph database"	     
   ]
    },
     
