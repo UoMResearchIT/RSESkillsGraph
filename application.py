@@ -19,9 +19,12 @@ import os
 import os.path
 import natsort
 from collections import OrderedDict
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 
 app = Flask(__name__)
+# Correctly use X-Forwarded-Proto in returned URLs to work in https reverse proxy
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1)
 
 os.environ['PATH'] = os.environ['PATH'] + ':/usr/local/bin'
 os.environ['GV_FILE_PATH'] = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static/images/')) + '/'
