@@ -507,11 +507,7 @@
 	    "Oracle Grid Engine",
 	    "Git",
 	    "Make (software)"
-        ],
-	"technologies": [
-          "Contact Ian for RSE projects in FSE"
-
-	    ]
+        ]
     },
 
 
@@ -541,6 +537,61 @@
 },
 
 
+    "Louise Lever": {
+	"interests":[
+	    "AWK",
+	    "Apache",
+	    "Augmented reality",
+	    "Bash (Unix shell)",
+	    "C (programming language)",
+	    "C++",
+	    "CSS-LESS",
+	    "D3.js",
+	    "Data visualization",
+	    "Django",
+	    "Emacs",
+	    "Game design",
+	    "Git",
+	    "HPC",
+	    "HTC Vive",
+	    "HTML",
+	    "HoloLens",
+	    "Internet of things",
+	    "JSON",
+	    "JavaScript",
+	    "LEAP Motion",
+	    "Linux",
+	    "Mixed reality",
+	    "MySQL",
+	    "Node.js",
+	    "Oculus Quest",
+	    "Oculus Rift",
+	    "OpenGL",
+	    "Pandas (software)",
+	    "ParaView",
+	    "Python",
+	    "Raspberry Pi",
+	    "SVG",
+	    "Tmux",
+	    "Unity (game engine)",
+	    "Unreal Engine",
+	    "VRTK",
+	    "Virtual reality",
+	    "Visualization",
+	    "Wagtail (CMS)",
+	    "Web application",
+	    "Web development",
+            "MPI",
+            "OpenMP",
+            "Parallel computing"
+ 	],
+	"technologies": [
+            "Contact Louise for RSE projects in FSE"
+	]
+    },
+
+    
+
     "Adrian Harwood": {
       "interests":[
 	      "Embedded system",
@@ -553,7 +604,7 @@
 	      "Process management",
 	      "HPC",
 	      "C (programming language)",
-	      "C++",
+ 	      "C++",
 	      "C# (programming language)",
 	      "Java",
 	      "MATLAB",
