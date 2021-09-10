@@ -1,209 +1,207 @@
 {
 
-   "Phil Bradbury": {
-     "interests": [
-       "Application design",
-       "ASP.NET",
-       "C# (programming language)",
-       "Project management",
-       "SQL",
-       "Visual Studio",
-       "JSON",
-       "CSS-LESS",
-       "HTML",
-       "Database Design",     
-       "JQuery",
-       "Web development",
-       "XML"
-      ]
-   },
-
-   "Patricia Barnby": {
-     "interests": [
-       "Java",
-       "Internet of things",
-       "Smartwatch",
-       "Application design",
-       "Jira",
-       "Trello",
-       "Xamarin",
-       "Android SDK",
-       "XCode",
-       "ASP.NET",
-       "Business analysis",
-       "Software testing",
-       "Version control",
-       "C#",
-       "Git",
-       "Project management",
-       "SQL",
-       "MySQL",
-       "Eclipse (software)",
-       "Visual Studio"
-      ]
-  },
+    "Phil Bradbury": {
+        "interests": [
+            "Application design",
+            "ASP.NET",
+            "C# (programming language)",
+            "Project management",
+            "SQL",
+            "Visual Studio",
+            "JSON",
+            "CSS-LESS",
+            "HTML",
+            "Database Design",
+            "JQuery",
+            "Web development",
+            "XML"
+        ]
+    },
 
 
-  "Donal Fellows": {
-    "interests": [
-      "Java",
-      "Python",
-      "Tcl",
-      "C (programming language)",
-      "C++",
-      "Git",
-      "Fossil",
-      "Manycore processor",
-      "Web service",
-      "Representational state transfer",
-      "Workflow management system",
-      "Eclipse (software)",
-      "Apache Maven",
-      "Object-oriented analysis and design",
-      "Service-oriented architecture",
-      "Compiler"
-   ]
-  },
+    "Patricia Barnby": {
+        "interests": [
+            "Java",
+            "Internet of things",
+            "Smartwatch",
+            "Application design",
+            "Jira",
+            "Trello",
+            "Xamarin",
+            "Android SDK",
+            "XCode",
+            "ASP.NET",
+            "Business analysis",
+            "Software testing",
+            "Version control",
+            "C#",
+            "Git",
+            "Project management",
+            "SQL",
+            "MySQL",
+            "Eclipse (software)",
+            "Visual Studio"
+        ]
+    },
 
 
- "Josh Woodcock": {
-   "interests": [
-    "Virtual reality",
-    "Augmented reality",
-    "Mixed reality",
-    "HoloLens",
-    "HTC Vive",
-    "Oculus Rift",
-    "Oculus Quest",
-    "LEAP Motion",
-    "VRTK",
-    "Unity (game engine)",
-    "Web development",
-    "Web scraping",
-    "Scripting",
-    "DevOps",
-    "Django",
-    "Wagtail",
-    "Flask (web framework)",
-    "Mobile app",
-    "Ionic",
-    "Cordova",
-    "Angular JS",
-    "Android (operating system)",
-    "iOS",
-    "Python",
-    "TypeScript",
-    "R (programming language)",
-    "Markdown",
-    "JavaScript",
-    "C# (programming language)",
-    "Data science",
-    "Data visualization",
-    "Plotly",
-    "Interaction design",
-    "Linux",
-    "Microsoft Windows",
-    "macOS",
-    "Version Control",
-    "Git"
-   ]
-  },
+    "Donal Fellows": {
+        "interests": [
+            "Java",
+            "Python",
+            "Tcl",
+            "C (programming language)",
+            "C++",
+            "Git",
+            "Fossil",
+            "Manycore processor",
+            "Web service",
+            "Representational state transfer",
+            "Workflow management system",
+            "Eclipse (software)",
+            "Apache Maven",
+            "Object-oriented analysis and design",
+            "Service-oriented architecture",
+            "Compiler"
+        ]
+    },
 
 
-   "Theresa Teng": {
-    "interests": [
-     "AngularJS",
-     "Application design",
-     "ASP.NET",
-     "Business analysis",
-     "C# (programming language)",
-     "HTML",
-     "JavaScript",
-     "JQuery",
-     "Microsoft Windows",
-     "Model-view controller",
-     "Omeka",
-     "Project management",
-     "SQL",
-     "Visual Studio",
-     "Web application"
-   ],
-       "technologies": [
-         "Contact Theresa for RSE  projects in FHUM"
- ]
-  },
+    "Josh Woodcock": {
+        "interests": [
+            "Virtual reality",
+            "Augmented reality",
+            "Mixed reality",
+            "HoloLens",
+            "HTC Vive",
+            "Oculus Rift",
+            "Oculus Quest",
+            "LEAP Motion",
+            "VRTK",
+            "Unity (game engine)",
+            "Web development",
+            "Web scraping",
+            "Scripting",
+            "DevOps",
+            "Django",
+            "Wagtail",
+            "Flask (web framework)",
+            "Mobile app",
+            "Ionic",
+            "Cordova",
+            "Angular JS",
+            "Android (operating system)",
+            "iOS",
+            "Python",
+            "TypeScript",
+            "R (programming language)",
+            "Markdown",
+            "JavaScript",
+            "C# (programming language)",
+            "Data science",
+            "Data visualization",
+            "Plotly",
+            "Interaction design",
+            "Linux",
+            "Microsoft Windows",
+            "macOS",
+            "Version Control",
+            "Git"
+        ]
+    },
 
 
-
-  "Anja Le_Blanc": {
-    "interests": [
-      "Agile software development",
-      "Cloud computing",
-      "Test-driven development",
-      "Project management",
-      "Software testing",
-      "Version control",
-      "Web application",
-      "Java",
-      "C (programming language)",
-      "AngularJS",
-      "JavaScript",
-      "Python",
-      "Bash (Unix shell)",
-      "JSP",
-      "SQL",
-      "Linux",
-      "Microsoft Windows",
-      "Git",
-      "Tomcat",
-      "Apache",
-      "Eclipse (software)",
-      "VirtualBox",
-      "Microsoft Azure",
-      "Amazon Web Services"
-       ],
-     "technologies": [
-         "Contact Anja for Application Support and Training"
-  ]
-  },
+    "Theresa Teng": {
+        "interests": [
+            "AngularJS",
+            "Application design",
+            "ASP.NET",
+            "Business analysis",
+            "C# (programming language)",
+            "HTML",
+            "JavaScript",
+            "JQuery",
+            "Microsoft Windows",
+            "Model-view controller",
+            "Omeka",
+            "Project management",
+            "SQL",
+            "Visual Studio",
+            "Web application"
+        ],
+        "technologies": [
+            "Contact Theresa for RSE  projects in FHUM"
+        ]
+    },
 
 
+    "Anja Le_Blanc": {
+        "interests": [
+            "Agile software development",
+            "Cloud computing",
+            "Test-driven development",
+            "Project management",
+            "Software testing",
+            "Version control",
+            "Web application",
+            "Java",
+            "C (programming language)",
+            "AngularJS",
+            "JavaScript",
+            "Python",
+            "Bash (Unix shell)",
+            "JSP",
+            "SQL",
+            "Linux",
+            "Microsoft Windows",
+            "Git",
+            "Tomcat",
+            "Apache",
+            "Eclipse (software)",
+            "VirtualBox",
+            "Microsoft Azure",
+            "Amazon Web Services"
+        ],
+        "technologies": [
+            "Contact Anja for Application Support and Training"
+        ]
+    },
 
-  "Tony Evans": {
-     "interests": [
-       "Web development",
-       "Web search engine",
-       "Data cluster",
-       "Python",
-       "Amazon Web Services",
-       "Google APIs",
-       "Search engine optimization",
-       "Text mining",
-       "PHP",
-       "MATLAB",
-       "Java",
-       "HTML",
-       "Cascading Style Sheets",
-       "Linux",
-       "EPOC",
-       "Symbian",
-       "MacOS",
-       "JavaScript",
-       "Zend",
-       "Adobe Dreamweaver",
-       "Eclipse (software)"
-   ]
-  },
+
+    "Tony Evans": {
+        "interests": [
+            "Web development",
+            "Web search engine",
+            "Data cluster",
+            "Python",
+            "Amazon Web Services",
+            "Google APIs",
+            "Search engine optimization",
+            "Text mining",
+            "PHP",
+            "MATLAB",
+            "Java",
+            "HTML",
+            "Cascading Style Sheets",
+            "Linux",
+            "EPOC",
+            "Symbian",
+            "MacOS",
+            "JavaScript",
+            "Zend",
+            "Adobe Dreamweaver",
+            "Eclipse (software)"
+        ]
+    },
 
 
-
-  "Ian Hinder": {
-       "interests": [
+    "Ian Hinder": {
+        "interests": [
             "Optimization",
-	   "Version control",
+            "Version control",
             "Reproducibility",
-           "Virtualization",
-	   "Software testing",
+            "Virtualization",
+            "Software testing",
             "Correctness testing",
             "Visualization",
             "Middleware",
@@ -211,219 +209,218 @@
             "Partial differential equation",
             "Automatic programming",
             "Mathematical model",
-           "Parallel computing",
-           "HPC",
-           "C (programming language)",
-           "C++",
-           "Wolfram Mathematica",
-           "Python",
-           "Bash (Unix shell)",
-           "Linux",
-           "MacOS",
-	   "Git",
+            "Parallel computing",
+            "HPC",
+            "C (programming language)",
+            "C++",
+            "Wolfram Mathematica",
+            "Python",
+            "Bash (Unix shell)",
+            "Linux",
+            "MacOS",
+            "Git",
             "Docker (software)",
             "Jenkins (software)",
             "libvirt",
             "MPI",
             "OpenMP",
             "VisIt"
-       ]
-   },
+        ]
+    },
 
 
-"Aitor Apaolaza": {
-  "interests":[
-    "Web application",
-    "Data science",
-    "Visualization",
-    "Data mining",
-    "Node.js",
-    "Java",
-    "JavaScript",
-    "R (programming language)",
-    "SQL",
-    "NoSQL",
-    "LaTeX",
-    "Jquery",
-    "HTML",
-    "Data wrangling",
-    "XML"
- ]
-},
+    "Aitor Apaolaza": {
+        "interests":[
+            "Web application",
+            "Data science",
+            "Visualization",
+            "Data mining",
+            "Node.js",
+            "Java",
+            "JavaScript",
+            "R (programming language)",
+            "SQL",
+            "NoSQL",
+            "LaTeX",
+            "Jquery",
+            "HTML",
+            "Data wrangling",
+            "XML"
+        ]
+    },
 
 
-    
-"Gerard Capes": {
-    "interests":[
-     "HPC",
-     "Instructor-led training",
-     "Software carpentry",
-     "LaTeX",
-     "MATLAB",
-     "Python",
-     "Git",
-     "Fortran",
-     "Make (software)",
-     "Bash (Unix shell)"
-  ]
- },
+    "Gerard Capes": {
+        "interests":[
+            "HPC",
+            "Instructor-led training",
+            "Software carpentry",
+            "LaTeX",
+            "MATLAB",
+            "Python",
+            "Git",
+            "Fortran",
+            "Make (software)",
+            "Bash (Unix shell)"
+        ]
+    },
 
-    
-  "Douglas Lowe": {
-     "interests":[
-		"Atmospheric chemistry",
-		"Chemical transport model",
-		"Weather Research and Forecasting Model",
-		"Kinetic PreProcessor",
-		"Numerical software",
-		"Scientific workflow system",
-		"High-performance computing",
-		"Fortran",
-		"Bash (Unix shell)",
-		"National Center for Atmospheric Research",
-		"Python",
-		"Perl",
-		"MATLAB",
-		"Make (software)",
-		"Git",
-	 "Apache Subversion",
-		"MacOS",
-		"Linux"
-	]
- },
+
+    "Douglas Lowe": {
+        "interests":[
+            "Atmospheric chemistry",
+            "Chemical transport model",
+            "Weather Research and Forecasting Model",
+            "Kinetic PreProcessor",
+            "Numerical software",
+            "Scientific workflow system",
+            "High-performance computing",
+            "Fortran",
+            "Bash (Unix shell)",
+            "National Center for Atmospheric Research",
+            "Python",
+            "Perl",
+            "MATLAB",
+            "Make (software)",
+            "Git",
+            "Apache Subversion",
+            "MacOS",
+            "Linux"
+        ]
+    },
+
 
     "Kamilla Kopec-Harding": {
-    "interests":[
-     "Data analysis",
-     "Data science",
-     "Data preparation",
-     "Data integration",
-     "Computational chemistry",
-     "Python",
-     "Stata",
-     "R (programming language)",
-     "SPSS",
-     "Text mining",
-     "Structured Prediction",
-     "Health data",
-     "Real world data"
- ]
- },
+        "interests":[
+            "Data analysis",
+            "Data science",
+            "Data preparation",
+            "Data integration",
+            "Computational chemistry",
+            "Python",
+            "Stata",
+            "R (programming language)",
+            "SPSS",
+            "Text mining",
+            "Structured Prediction",
+            "Health data",
+            "Real world data"
+        ]
+    },
 
 
-"Andrew Rowley": {
-    "interests":[
-     "Spiking neural network",
-     "Neuromorphic engineering",
-     "SpiNNaker",
-     "C (programming language)",
-     "Linux",
-     "Microsoft Windows",
-     "Python",
-     "Java",
-     "Travis CI",
-     "Jenkins (software)",
-     "Embedded C",
-     "C++",
-     "Git",
-     "GitHub",
-     "Docker (software)",
-     "Perl",
-    "Web application",
-    "High-throughput computing",
-    "Windows Subsystem for Linux",
-    "Java Native Interface (JNI)"
-  ]
- },
-
+    "Andrew Rowley": {
+        "interests":[
+            "Spiking neural network",
+            "Neuromorphic engineering",
+            "SpiNNaker",
+            "C (programming language)",
+            "Linux",
+            "Microsoft Windows",
+            "Python",
+            "Java",
+            "Travis CI",
+            "Jenkins (software)",
+            "Embedded C",
+            "C++",
+            "Git",
+            "GitHub",
+            "Docker (software)",
+            "Perl",
+            "Web application",
+            "High-throughput computing",
+            "Windows Subsystem for Linux",
+            "Java Native Interface (JNI)"
+        ]
+    },
 
 
     "Robert Haines": {
-   "interests": [
-     "Agile software development",
-     "Software testing",
-     "Project management",
-     "Version control",
-     "Test-driven development",
-     "Continuous integration",
-     "Ruby",
-     "Software Sustainability Institute",
-     "Reference management software",
-     "Credit",
-     "Open research",
-     "Reproducibility",
-     "LaTeX",
-     "Git",
-     "Java",
-     "Research software engineering",
-     "Empirical Software Engineering",
-     "C (programming language)",
-     "Make (software)"
-  ],
-  "technologies": [
-    "Robert is Head of Research IT"
-  ]
-},
-
+        "interests": [
+            "Agile software development",
+            "Software testing",
+            "Project management",
+            "Version control",
+            "Test-driven development",
+            "Continuous integration",
+            "Ruby",
+            "Software Sustainability Institute",
+            "Reference management software",
+            "Credit",
+            "Open research",
+            "Reproducibility",
+            "LaTeX",
+            "Git",
+            "Java",
+            "Research software engineering",
+            "Empirical Software Engineering",
+            "C (programming language)",
+            "Make (software)"
+        ],
+        "technologies": [
+            "Robert is Head of Research IT"
+        ]
+    },
 
 
     "Ann Gledson": {
-     "interests":[
-     "Text mining",
-     "User interface design",
-     "Django",
-     ".NET Framework",
-     "Microsoft UI Automation",
-     "Internet of things",
-     "Visualization",
-     "Machine learning",
-     "Python",
-     "Web application",
-     "Weka",
-     "R (programming language)",
-     "SPSS",
-     "C# (programming language)",
-     "Delphi (programming language)",
-     "Object Pascal",
-     "JavaScript",
-     "Java",
-     "Jquery",
-     "XML",
-     "JSON",
-     "HTML",
-     "Perl",
-     "Visual Basic",
-     "C++",
-     "Pandas (software)",
-     "Data wrangling",
-     "Smart city",
-     "Data modeling",
-     "LaTeX",
-     "Linux",
-     "SQL",
-     "InfluxDB",
-     "MySQL",
-     "Microsoft SQL Server",
-     "Celery (software)",
-     "Wagtail (CMS)",
-     "Graph database"	     
-  ]
-   },
-    
+        "interests":[
+            "Text mining",
+            "User interface design",
+            "Django",
+            ".NET Framework",
+            "Microsoft UI Automation",
+            "Internet of things",
+            "Visualization",
+            "Machine learning",
+            "Python",
+            "Web application",
+            "Weka",
+            "R (programming language)",
+            "SPSS",
+            "C# (programming language)",
+            "Delphi (programming language)",
+            "Object Pascal",
+            "JavaScript",
+            "Java",
+            "Jquery",
+            "XML",
+            "JSON",
+            "HTML",
+            "Perl",
+            "Visual Basic",
+            "C++",
+            "Pandas (software)",
+            "Data wrangling",
+            "Smart city",
+            "Data modeling",
+            "LaTeX",
+            "Linux",
+            "SQL",
+            "InfluxDB",
+            "MySQL",
+            "Microsoft SQL Server",
+            "Celery (software)",
+            "Wagtail (CMS)",
+            "Graph database"
+        ]
+    },
+
 
     "Peter Crowther": {
-    "interests":[
-        "Digital image processing",
-        "Molecular dynamics",
-        "C (programming language)",
-        "C++",
-        "Python",
-        "R (programming language)",
-        "LabVIEW",
-        "Experimental data",
-	"Instructor-led training"
-    ]
-},
+        "interests":[
+            "Digital image processing",
+            "Molecular dynamics",
+            "C (programming language)",
+            "C++",
+            "Python",
+            "R (programming language)",
+            "LabVIEW",
+            "Experimental data",
+            "Instructor-led training"
+        ]
+    },
+
 
     "Oliver Woolland": {
         "interests":[
@@ -456,146 +453,141 @@
 
 
     "James Sinnott": {
-   "interests":[
-     "Data science",
-     "Health informatics",
-      "Usability",
-      "User interface design",
-      "User experience",
-      "Git",
-      "JavaScript",
-      "Linux",
-      "MacOS",
-      "MongoDB",
-      "Objective-C",
-      "Perl",
-      "Python",
-      "SQL"
-   ]
-},
+        "interests":[
+            "Data science",
+            "Health informatics",
+            "Usability",
+            "User interface design",
+            "User experience",
+            "Git",
+            "JavaScript",
+            "Linux",
+            "MacOS",
+            "MongoDB",
+            "Objective-C",
+            "Perl",
+            "Python",
+            "SQL"
+        ]
+    },
 
 
     "Andrew Jerrison": {
-                "interests": [
-                                "Web application",
-                                "Mobile app",
-                                "Cloud applications",
-                                "Cloud computing",
-                                "Desktop app",
-                                "Machine learning",
-                                "Artificial intelligence",
-                                "Application design",
-                    "Visualization",
-                                "C# (programming language)",
-                                "JavaScript",
-                                "ASP.NET",
-                                "Microsoft Azure",
-                                "Cordova",
-                                "SQL"
-                ],
-	"technologies": [
-          "Contact Andrew for RSE projects in FBMH"
-
-	    ]
-},
+        "interests": [
+            "Web application",
+            "Mobile app",
+            "Cloud applications",
+            "Cloud computing",
+            "Desktop app",
+            "Machine learning",
+            "Artificial intelligence",
+            "Application design",
+            "Visualization",
+            "C# (programming language)",
+            "JavaScript",
+            "ASP.NET",
+            "Microsoft Azure",
+            "Cordova",
+            "SQL"
+        ],
+        "technologies": [
+            "Contact Andrew for RSE projects in FBMH"
+        ]
+    },
 
 
     "Louise Lever": {
-	"interests":[
-	    "AWK",
-	    "Apache",
-	    "Augmented reality",
-	    "Bash (Unix shell)",
-	    "C (programming language)",
-	    "C++",
-	    "CSS-LESS",
-	    "D3.js",
-	    "Data visualization",
-	    "Django",
-	    "Emacs",
-	    "Game design",
-	    "Git",
-	    "HPC",
-	    "HTC Vive",
-	    "HTML",
-	    "HoloLens",
-	    "Internet of things",
-	    "JSON",
-	    "JavaScript",
-	    "LEAP Motion",
-	    "Linux",
-	    "Mixed reality",
-	    "MySQL",
-	    "Node.js",
-	    "Oculus Quest",
-	    "Oculus Rift",
-	    "OpenGL",
-	    "Pandas (software)",
-	    "ParaView",
-	    "Python",
-	    "Raspberry Pi",
-	    "SVG",
-	    "Tmux",
-	    "Unity (game engine)",
-	    "Unreal Engine",
-	    "VRTK",
-	    "Virtual reality",
-	    "Visualization",
-	    "Wagtail (CMS)",
-	    "Web application",
-	    "Web development",
+        "interests":[
+            "AWK",
+            "Apache",
+            "Augmented reality",
+            "Bash (Unix shell)",
+            "C (programming language)",
+            "C++",
+            "CSS-LESS",
+            "D3.js",
+            "Data visualization",
+            "Django",
+            "Emacs",
+            "Game design",
+            "Git",
+            "HPC",
+            "HTC Vive",
+            "HTML",
+            "HoloLens",
+            "Internet of things",
+            "JSON",
+            "JavaScript",
+            "LEAP Motion",
+            "Linux",
+            "Mixed reality",
+            "MySQL",
+            "Node.js",
+            "Oculus Quest",
+            "Oculus Rift",
+            "OpenGL",
+            "Pandas (software)",
+            "ParaView",
+            "Python",
+            "Raspberry Pi",
+            "SVG",
+            "Tmux",
+            "Unity (game engine)",
+            "Unreal Engine",
+            "VRTK",
+            "Virtual reality",
+            "Visualization",
+            "Wagtail (CMS)",
+            "Web application",
+            "Web development",
             "MPI",
             "OpenMP",
             "Parallel computing"
- 	],
-	"technologies": [
+        ],
+        "technologies": [
             "Contact Louise for RSE projects in FSE"
-	]
+        ]
     },
 
-    
 
     "Adrian Harwood": {
-      "interests":[
-	      "Embedded system",
-	      "General-purpose computing on graphics processing units",
-	      "Mobile app",
-	      "Game design",
-	      "Virtual reality",
-	      "Real-time simulation",
-	      "Project management",
-	      "Process management",
-	      "HPC",
-	      "C (programming language)",
- 	      "C++",
-	      "C# (programming language)",
-	      "Java",
-	      "MATLAB",
-	      "Visual Studio",
-	      "Android (operating system)",
-	      "Android SDK",
-	      "Java Native Interface (JNI)",
-	      "NVIDIA CUDA",
-	      "OpenGL",
-	      "Unreal Engine",
-	      "Unity (game engine)",
-	      "MPI",
-	      "OpenMP",
-	      "Xamarin",
-	      "Microsoft Windows",
-	      "Linux",
-	      "User interface design",
-	      "Engineering",
-	      "Computational fluid dynamics",
-	      "Visual Basic for Applications",
-	      "Git",
-	      "Raspberry Pi"
-      ],
-    "technologies": [
-          "Contact Adrian for RSE projects requiring Mobile or GPGPU apps"
-
-	    ]	
+        "interests":[
+            "Embedded system",
+            "General-purpose computing on graphics processing units",
+            "Mobile app",
+            "Game design",
+            "Virtual reality",
+            "Real-time simulation",
+            "Project management",
+            "Process management",
+            "HPC",
+            "C (programming language)",
+            "C++",
+            "C# (programming language)",
+            "Java",
+            "MATLAB",
+            "Visual Studio",
+            "Android (operating system)",
+            "Android SDK",
+            "Java Native Interface (JNI)",
+            "NVIDIA CUDA",
+            "OpenGL",
+            "Unreal Engine",
+            "Unity (game engine)",
+            "MPI",
+            "OpenMP",
+            "Xamarin",
+            "Microsoft Windows",
+            "Linux",
+            "User interface design",
+            "Engineering",
+            "Computational fluid dynamics",
+            "Visual Basic for Applications",
+            "Git",
+            "Raspberry Pi"
+        ],
+        "technologies": [
+            "Contact Adrian for RSE projects requiring Mobile or GPGPU apps"
+        ]
     }
-
-
 }
