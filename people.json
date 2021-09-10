@@ -200,10 +200,10 @@
   "Ian Hinder": {
        "interests": [
             "Optimization",
-	   "Version control",
+            "Version control",
             "Reproducibility",
-           "Virtualization",
-	   "Software testing",
+            "Virtualization",
+            "Software testing",
             "Correctness testing",
             "Visualization",
             "Middleware",
@@ -211,206 +211,187 @@
             "Partial differential equation",
             "Automatic programming",
             "Mathematical model",
-           "Parallel computing",
-           "HPC",
-           "C (programming language)",
-           "C++",
-           "Wolfram Mathematica",
-           "Python",
-           "Bash (Unix shell)",
-           "Linux",
-           "MacOS",
-	   "Git",
+            "Parallel computing",
+            "HPC",
+            "C (programming language)",
+            "C++",
+            "Wolfram Mathematica",
+            "Python",
+            "Bash (Unix shell)",
+            "Linux",
+            "MacOS",
+            "Git",
             "Docker (software)",
             "Jenkins (software)",
             "libvirt",
             "MPI",
             "OpenMP",
             "VisIt"
-       ]
-   },
-
-
-"Aitor Apaolaza": {
-  "interests":[
-    "Web application",
-    "Data science",
-    "Visualization",
-    "Data mining",
-    "Node.js",
-    "Java",
-    "JavaScript",
-    "R (programming language)",
-    "SQL",
-    "NoSQL",
-    "LaTeX",
-    "Jquery",
-    "HTML",
-    "Data wrangling",
-    "XML"
- ]
-},
-
-
-    
-"Gerard Capes": {
-    "interests":[
-     "HPC",
-     "Instructor-led training",
-     "Software carpentry",
-     "LaTeX",
-     "MATLAB",
-     "Python",
-     "Git",
-     "Fortran",
-     "Make (software)",
-     "Bash (Unix shell)"
-  ]
- },
-
-    
-  "Douglas Lowe": {
-     "interests":[
-		"Atmospheric chemistry",
-		"Chemical transport model",
-		"Weather Research and Forecasting Model",
-		"Kinetic PreProcessor",
-		"Numerical software",
-		"Scientific workflow system",
-		"High-performance computing",
-		"Fortran",
-		"Bash (Unix shell)",
-		"National Center for Atmospheric Research",
-		"Python",
-		"Perl",
-		"MATLAB",
-		"Make (software)",
-		"Git",
-	 "Apache Subversion",
-		"MacOS",
-		"Linux"
-	]
- },
-
+        ]
+    },
+    "Aitor Apaolaza": {
+        "interests": [
+            "Web application",
+            "Data science",
+            "Visualization",
+            "Data mining",
+            "Node.js",
+            "Java",
+            "JavaScript",
+            "R (programming language)",
+            "SQL",
+            "NoSQL",
+            "LaTeX",
+            "Jquery",
+            "HTML",
+            "Data wrangling",
+            "XML"
+        ]
+    },
+    "Gerard Capes": {
+        "interests": [
+            "HPC",
+            "Instructor-led training",
+            "Software carpentry",
+            "LaTeX",
+            "MATLAB",
+            "Python",
+            "Git",
+            "Fortran",
+            "Make (software)",
+            "Bash (Unix shell)"
+        ]
+    },
+    "Douglas Lowe": {
+        "interests": [
+            "Atmospheric chemistry",
+            "Chemical transport model",
+            "Weather Research and Forecasting Model",
+            "Kinetic PreProcessor",
+            "Numerical software",
+            "Scientific workflow system",
+            "High-performance computing",
+            "Fortran",
+            "Bash (Unix shell)",
+            "National Center for Atmospheric Research",
+            "Python",
+            "Perl",
+            "MATLAB",
+            "Make (software)",
+            "Git",
+            "Apache Subversion",
+            "MacOS",
+            "Linux"
+        ]
+    },
     "Kamilla Kopec-Harding": {
-    "interests":[
-     "Data analysis",
-     "Data science",
-     "Data preparation",
-     "Data integration",
-     "Computational chemistry",
-     "Python",
-     "Stata",
-     "R (programming language)",
-     "SPSS",
-     "Text mining",
-     "Structured Prediction",
-     "Health data",
-     "Real world data"
- ]
- },
-
-
-"Andrew Rowley": {
-    "interests":[
-     "Spiking neural network",
-     "Neuromorphic engineering",
-     "SpiNNaker",
-     "C (programming language)",
-     "Linux",
-     "Microsoft Windows",
-     "Python",
-     "Java",
-     "Travis CI",
-     "Jenkins (software)",
-     "Embedded C",
-     "C++",
-     "Git",
-     "GitHub",
-     "Docker (software)",
-     "Perl",
-    "Web application",
-    "High-throughput computing",
-    "Windows Subsystem for Linux",
-    "Java Native Interface (JNI)"
-  ]
- },
-
-
-
+        "interests": [
+            "Data analysis",
+            "Data science",
+            "Data preparation",
+            "Data integration",
+            "Computational chemistry",
+            "Python",
+            "Stata",
+            "R (programming language)",
+            "SPSS",
+            "Text mining",
+            "Structured Prediction",
+            "Health data",
+            "Real world data"
+        ]
+    },
+    "Andrew Rowley": {
+        "interests": [
+            "Spiking neural network",
+            "Neuromorphic engineering",
+            "SpiNNaker",
+            "C (programming language)",
+            "Linux",
+            "Microsoft Windows",
+            "Python",
+            "Java",
+            "Travis CI",
+            "Jenkins (software)",
+            "Embedded C",
+            "C++",
+            "Git",
+            "GitHub",
+            "Docker (software)",
+            "Perl",
+            "Web application",
+            "High-throughput computing",
+            "Windows Subsystem for Linux",
+            "Java Native Interface (JNI)"
+        ]
+    },
     "Robert Haines": {
-   "interests": [
-     "Agile software development",
-     "Software testing",
-     "Project management",
-     "Version control",
-     "Test-driven development",
-     "Continuous integration",
-     "Ruby",
-     "Software Sustainability Institute",
-     "Reference management software",
-     "Credit",
-     "Open research",
-     "Reproducibility",
-     "LaTeX",
-     "Git",
-     "Java",
-     "Research software engineering",
-     "Empirical Software Engineering",
-     "C (programming language)",
-     "Make (software)"
-  ],
-  "technologies": [
-    "Robert is Head of Research IT"
-  ]
-},
-
-
-
+        "interests": [
+            "Agile software development",
+            "Software testing",
+            "Version control",
+            "Test-Driven Development",
+            "Continuous Integration",
+            "Ruby",
+            "Ruby on Rails",
+            "Software Sustainability Institute",
+            "Credit",
+            "Open Research",
+            "Reproducibility",
+            "LaTeX",
+            "Git",
+            "Java",
+            "Research Software Engineering",
+            "Empirical Software Engineering",
+            "C (programming language)",
+            "Make (software)"
+        ],
+        "technologies": [
+            "Robert is Head of Research IT"
+        ]
+    },
     "Ann Gledson": {
-     "interests":[
-     "Text mining",
-     "User interface design",
-     "Django",
-     ".NET Framework",
-     "Microsoft UI Automation",
-     "Internet of things",
-     "Visualization",
-     "Machine learning",
-     "Python",
-     "Web application",
-     "Weka",
-     "R (programming language)",
-     "SPSS",
-     "C# (programming language)",
-     "Delphi (programming language)",
-     "Object Pascal",
-     "JavaScript",
-     "Java",
-     "Jquery",
-     "XML",
-     "JSON",
-     "HTML",
-     "Perl",
-     "Visual Basic",
-     "C++",
-     "Pandas (software)",
-     "Data wrangling",
-     "Smart city",
-     "Data modeling",
-     "LaTeX",
-     "Linux",
-     "SQL",
-     "InfluxDB",
-     "MySQL",
-     "Microsoft SQL Server",
-     "Celery (software)",
-     "Wagtail (CMS)",
-     "Graph database"	     
-  ]
-   },
-    
-
+        "interests": [
+            "Text mining",
+            "User interface design",
+            "Django",
+            ".NET Framework",
+            "Microsoft UI Automation",
+            "Internet of things",
+            "Visualization",
+            "Machine learning",
+            "Python",
+            "Web application",
+            "Weka",
+            "R (programming language)",
+            "SPSS",
+            "C# (programming language)",
+            "Delphi (programming language)",
+            "Object Pascal",
+            "JavaScript",
+            "Java",
+            "Jquery",
+            "XML",
+            "JSON",
+            "HTML",
+            "Perl",
+            "Visual Basic",
+            "C++",
+            "Pandas (software)",
+            "Data wrangling",
+            "Smart city",
+            "Data modeling",
+            "LaTeX",
+            "Linux",
+            "SQL",
+            "InfluxDB",
+            "MySQL",
+            "Microsoft SQL Server",
+            "Celery (software)",
+            "Wagtail (CMS)",
+            "Graph database"
+        ]
+    },
     "Peter Crowther": {
     "interests":[
         "Digital image processing",
@@ -596,6 +577,4 @@
 
 	    ]	
     }
-
-
 }
