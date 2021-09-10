@@ -425,6 +425,35 @@
     ]
 },
 
+    "Oliver Woolland": {
+        "interests":[
+            "Computational physics",
+            "Mathematical model",
+            "Monte Carlo method",
+            "Numerical software",
+            "GNU Scientific Library",
+            "Geant4",
+            "C++",
+            "Python",
+            "Experimental physics",
+            "Virtual instrument software architecture",
+            "MATLAB",
+            "GNU Octave",
+            "Flask (web framework)",
+            "Plotly",
+            "JavaScript",
+            "LaTeX",
+            "Embedded system",
+            "Raspberry Pi",
+            "Web application",
+            "Web development",
+            "Bash (Unix shell)",
+            "Linux",
+            "Git",
+            "GitLab"
+        ]
+    },
+
 
     "James Sinnott": {
    "interests":[
