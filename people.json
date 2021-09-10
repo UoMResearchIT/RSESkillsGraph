@@ -1,23 +1,5 @@
 {
 
-
-  "Robin Long": {
-     "interests": [
-       "Python",
-       "LaTeX",
-       "R (programming language)",
-       "Ansible (software)",
-       "Bash (Unix shell)",
-       "Git",
-       "GitHub",
-       "C (programming language)",
-            "Reproducibility",
-       "Software Sustainability Institute"
-    ]
-  },
-
-
-
    "Phil Bradbury": {
      "interests": [
        "Application design",
@@ -287,24 +269,6 @@
  },
 
     
-"James Schumm": {
-   "interests":[
-     "Systems analysis",
-     "Technical writer",
-     "Web development",
-     "WordPress",
-     "LiveCode",
-     "Mobile app",
-     "PHP",
-    "Git",
-   "GitHub",
-   "Perl",
-  "Microsoft Windows",
-  "Application design"
- ]
- },
-
-    
   "Douglas Lowe": {
      "interests":[
 		"Atmospheric chemistry",
@@ -461,6 +425,35 @@
     ]
 },
 
+    "Oliver Woolland": {
+        "interests":[
+            "Computational physics",
+            "Mathematical model",
+            "Monte Carlo method",
+            "Numerical software",
+            "GNU Scientific Library",
+            "Geant4",
+            "C++",
+            "Python",
+            "Experimental physics",
+            "Virtual instrument software architecture",
+            "MATLAB",
+            "GNU Octave",
+            "Flask (web framework)",
+            "Plotly",
+            "JavaScript",
+            "LaTeX",
+            "Embedded system",
+            "Raspberry Pi",
+            "Web application",
+            "Web development",
+            "Bash (Unix shell)",
+            "Linux",
+            "Git",
+            "GitLab"
+        ]
+    },
+
 
     "James Sinnott": {
    "interests":[
@@ -480,36 +473,6 @@
       "SQL"
    ]
 },
-
-    "Ian Cottam": {
-        "interests": [
-            "Cloud computing",
-            "High-throughput computing",
-            "Software testing",
-            "Self-service",
-            "Cloud storage",
-	    "Encryption",
-	    "Critical system",
-	    "Project management",
-	    "Version control",
-            "HPC",	    
-            "C (programming language)",
-            "C++",
-            "Bash (Unix shell)",
-            "Linux",
-            "MacOS",
-            "Windows Subsystem for Linux",
-            "AWK",
-	    "Amazon Web Services",
-	    "Microsoft Azure",
-	    "Dropbox",
-	    "HTCondor",
-	    "Oracle Grid Engine",
-	    "Git",
-	    "Make (software)"
-        ]
-    },
-
 
 
     "Andrew Jerrison": {
