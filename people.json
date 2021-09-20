@@ -401,7 +401,13 @@
             "Microsoft SQL Server",
             "Celery (software)",
             "Wagtail (CMS)",
-            "Graph database"
+            "Graph database",
+            "PHP",
+            "CodeIgniter",
+            "Design Patterns",
+            "Computational Linguistics",
+            "Text Mining",
+            "Parallel computing"
         ]
     },
 
