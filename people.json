@@ -594,5 +594,26 @@
         "technologies": [
             "Contact Adrian for RSE projects requiring Mobile or GPGPU apps"
         ]
+    },
+
+
+    "David Mawdsley": {
+        "interests":[
+            "Python",
+            "R (programming language)",
+            "Instructor-led training",
+            "SQL",
+            "Git",
+            "Markdown",
+            "Data science",
+            "Data visualization",
+            "Linux",
+            "Docker (software)",
+            "LaTeX",
+            "Make (software)",
+            "Reproducibility",
+            "Raspberry Pi"
+        ]
     }
+
 }
