@@ -617,6 +617,25 @@
         "technologies": [
             "Contact David for Data Science and AI projects"
         ]
+    },
+    "Henry Tranter": {
+        "interests": [
+            "Java",
+            "JavaScript",
+            "TypeScript",
+            "C Sharp (programming language)",
+            "Python (programming language)",
+            "MySQL",
+            "PostgreSQL",
+            "Angular (web framework)",
+            "Web development",
+            "Vue.js",
+            "Mobile app",
+            "Data science",
+            "Multiprocessing",
+            "HPC",
+            "Machine learning"
+        ]   
     }
 
 }
