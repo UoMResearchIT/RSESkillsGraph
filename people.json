@@ -1,4 +1,23 @@
 {
+    "Catherine McGuire": {
+        "interests": [
+            "Python",
+            "HTML",
+            "SQL",
+            "LaTeX",
+            "Machine learning",
+            "Natural language processing",
+            "Markdown",
+            "Plotly",
+            "pandas (software)",
+            "Streamlit",
+            "Git",
+            "Trello",
+            "Project management",
+            "Agile software development",
+            "Business analysis"
+        ]
+    },
 
     "Phil Bradbury": {
         "interests": [
