@@ -658,6 +658,26 @@
             "HPC",
             "Machine learning"
         ]   
+    },
+	
+    "Francisco Herrerias-Azcue": {
+        "interests":[
+            "Statistical physics",
+			"Computational physics",
+            "Mathematical model",
+            "Monte Carlo method",
+			"Population dynamics",
+            "gnuplot",
+			"C++",
+            "Instructor-led training",
+			"Adobe Suite",
+            "LaTeX",
+            "MATLAB",
+            "Python",
+			"Data Science",
+			"HPC",
+            "Git"
+        ]
     }
 
 }
