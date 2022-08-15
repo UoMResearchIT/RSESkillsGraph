@@ -678,6 +678,27 @@
 			"HPC",
             "Git"
         ]
+    },
+	
+    "Scott Archer-Nicholls": {
+        "interests":[
+            "Atmospheric chemistry",
+            "Chemistry-Climate modelling",
+            "Weather Research and Forecasting Model",
+	    "Met Office Unified Model",
+	    "Climate Change",
+	    "Air Quality",
+            "High-performance computing",
+            "Fortran",
+            "Python (programming language)",
+            "LaTeX",
+            "R (programming language)",
+            "Bash (Unix shell)",
+            "Git",
+            "FCM make",
+            "MacOS",
+            "Linux"
+        ]
     }
 
 }
