@@ -251,27 +251,6 @@
     },
 
 
-    "Aitor Apaolaza": {
-        "interests":[
-            "Web application",
-            "Data science",
-            "Visualization",
-            "Data mining",
-            "Node.js",
-            "Java (programming language)",
-            "JavaScript",
-            "R (programming language)",
-            "SQL",
-            "NoSQL",
-            "LaTeX",
-            "Jquery",
-            "HTML",
-            "Data wrangling",
-            "XML"
-        ]
-    },
-
-
     "Gerard Capes": {
         "interests":[
             "HPC",
@@ -357,33 +336,6 @@
     },
 
 
-    "Robert Haines": {
-        "interests": [
-            "Agile software development",
-            "Software testing",
-            "Version control",
-            "Test-Driven Development",
-            "Continuous Integration",
-            "Ruby",
-            "Ruby on Rails",
-            "Software Sustainability Institute",
-            "Credit",
-            "Open Research",
-            "Reproducibility",
-            "LaTeX",
-            "Git",
-            "Java (programming language)",
-            "Research Software Engineering",
-            "Empirical Software Engineering",
-            "C (programming language)",
-            "Make (software)"
-        ],
-        "technologies": [
-            "Robert is Head of Research IT"
-        ]
-    },
-
-
     "Ann Gledson": {
         "interests":[
             "Text mining",
@@ -430,21 +382,6 @@
             "Computational linguistics",
             "Text Mining",
             "Parallel computing"
-        ]
-    },
-
-
-    "Peter Crowther": {
-        "interests":[
-            "Digital image processing",
-            "Molecular dynamics",
-            "C (programming language)",
-            "C++",
-            "Python (programming language)",
-            "R (programming language)",
-            "LabVIEW",
-            "Experimental data",
-            "Instructor-led training"
         ]
     },
 
