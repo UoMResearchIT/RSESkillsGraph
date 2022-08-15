@@ -678,6 +678,36 @@
 			"HPC",
             "Git"
         ]
+    },
+
+    "Nigel Green": {
+        "interests":[
+            "Python (programming language)",
+            "Git",
+            "Web application",
+            "Web development",
+            "Laravel",
+            "Wagtail (CMS)",
+            "Vue.js",
+            "Docker",
+            "Bash (Unix shell)",
+            "HTML",
+            "CSS",
+            "SASS",
+            "JavaScript",
+            "Application design",
+            "User experience",
+            "User interface",
+            "PyGTK",
+            "REST",
+            "Web API",
+            "MySQL",
+            "Node.js",
+            "Vim",
+            "Linux",
+            "Project management",
+            "Agile software development"
+        ]
     }
 
 }
