@@ -440,19 +440,18 @@
         "interests": [
             "Web application",
             "Mobile app",
-            "Cloud applications",
-            "Cloud computing",
             "Desktop app",
-            "Machine learning",
-            "Artificial intelligence",
             "Application design",
-            "Visualization",
+            "vis.js",
             "C# (programming language)",
             "JavaScript",
             "ASP.NET",
             "Microsoft Azure",
             "Cordova",
-            "SQL"
+            "SQL",
+            "Alfresco",
+            "UWP",
+            "C (programming language)"
         ],
         "technologies": [
             "Contact Andrew for RSE projects in FBMH"
@@ -551,7 +550,7 @@
             "Raspberry Pi"
         ],
         "technologies": [
-            "Contact Adrian for RSE projects requiring Mobile or GPGPU apps"
+            "Adrian is the Head of Research Software Engineering"
         ]
     },
 
