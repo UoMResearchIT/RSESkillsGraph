@@ -60,7 +60,11 @@
             "MySQL",
             "Eclipse (software)",
             "Visual Studio"
+        ],
+        "technologies": [
+            "Contact Patricia for RSE projects involving mobile apps"
         ]
+	    
     },
 
 
@@ -530,7 +534,8 @@
             "Java (programming language)",
             "MATLAB",
             "Visual Studio",
-            "Android (operating system)",
+            "Android (operating system)",    
+	    "iOS",
             "Android SDK",
             "Java Native Interface (JNI)",
             "NVIDIA CUDA",
@@ -547,7 +552,12 @@
             "Computational fluid dynamics",
             "Visual Basic for Applications",
             "Git",
-            "Raspberry Pi"
+            "Raspberry Pi",
+	    "Blazor",
+	    "ASP.NET",
+	    "GitHub",
+	     "Jira (software)",
+	     "Agile software development"
         ],
         "technologies": [
             "Adrian is the Head of Research Software Engineering"
