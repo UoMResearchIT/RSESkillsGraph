@@ -672,6 +672,26 @@
             "Photovoltaics",
             "QGIS"
         ]
+    },
+
+    "Jia Wu": {
+        "interests": [
+            "Machine learning",
+            "Data wrangling",
+            "Data modeling",
+            "Data analysis",
+            "Data science",
+            "Data preparation",
+            "Data integration",
+            "Python (programming language)",
+            "pandas (software)",
+            "Real world data",
+            "MySQL",
+            "SQL",
+            "Microsoft SQL Server",
+            "Git",
+            "Java (programming language)"
+        ]
     }
 
 }
