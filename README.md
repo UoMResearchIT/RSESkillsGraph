@@ -7,6 +7,9 @@ It will be displayed properly with a space. The "interests" for each person need
 
 The JSON is fairly obvious. There are two levels, called "interests" and "technologies". Interests are clickable, but technologies not. Some browsers let you right-click a technology and look up its definition. In the RSE-skills application we really just use Interests, so everything is clickable. We do use technologies sparingly as commentary.
 
+# What do I add?
+You should add "interests" if you feel confident on being selected to work on a project where that technology is the main technology used then add it as an interest.
+
 # How to Install / Run
 The `requirements.txt` should contain the Python modules needed.
 
