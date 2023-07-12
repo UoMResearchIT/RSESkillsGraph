@@ -692,6 +692,31 @@
             "Git",
             "Java (programming language)"
         ]
+    },
+
+    "Hugo Chu": {
+        "interests": [
+			"Apache Maven",
+			"Database Design",
+			"DevOps",
+			"Docker (software)",
+			"Git",
+			"HTML",
+			"Java (programming language)",
+			"Jakarta Server Pages",
+			"JSON",
+			"JQuery",
+			"JavaScript",
+			"Jenkins (software)",
+			"Linux",
+			"MySQL",
+			"Object-oriented analysis and design",
+			"Python (programming language)",
+			"REST",
+			"SQL",
+			"Web development",
+			"XML"
+        ]
     }
 
 }
