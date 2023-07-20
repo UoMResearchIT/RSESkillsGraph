@@ -717,6 +717,37 @@
 			"Web development",
 			"XML"
         ]
+    },
+
+
+    "Justin Leung": {
+        "interests": [
+			"Git",
+			"HTML",
+            "LaTeX",
+            "PHP",
+            "ARM",
+            "VeriLog",
+            "Haskell (programming language)",
+			"Java (programming language)",
+            "C/C++ (Programming langauge)",
+            "C# (programming language)",
+            "ASP.NET",
+            "Java Spring",
+            "Data science",
+            "Machine learning",
+			"JavaScript",
+			"Jenkins (software)",
+			"Linux",
+			"MySQL",
+			"Python (programming language)",
+			"SQL",
+            "Microsoft SQL Server",
+			"Web development",
+            "Mobile Development",
+            "MacOS",
+            "iOS"
+        ]
     }
 
 }
