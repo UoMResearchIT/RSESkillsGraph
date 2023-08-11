@@ -20,21 +20,26 @@
     },
 
     "Phil Bradbury": {
-        "interests": [
-            "Application design",
-            "ASP.NET",
-            "C# (programming language)",
-            "Project management",
-            "SQL",
-            "Visual Studio",
-            "JSON",
-            "CSS-LESS",
-            "HTML",
-            "Database Design",
-            "JQuery",
-            "Web development",
-            "XML"
-        ]
+      "interests": [
+        "Application design",
+        "ASP.NET",
+        "C# (programming language)",
+        "Project management",
+        "SQL",
+        "Visual Studio",
+        "JSON",
+        "LESS (style sheet language)",
+        "HTML",
+        "Database Design",
+        "JQuery",
+        "Web development",
+        "XML",
+        "Xamarin.Forms",
+        "Mobile App Development",
+        "Jira",
+        "Model View Controller",
+        "Blazor"
+      ]
     },
 
 
