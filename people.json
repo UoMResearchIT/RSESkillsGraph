@@ -741,6 +741,34 @@
             "MacOS",
             "iOS"
         ]
+    },
+
+    "Chris Fullerton": {
+        "interests":[
+            "Python (programming language)",
+            "C (programming langauge)",
+            "C++ (programming language)",
+            "MATLAB (programming language)",
+            "Bash (Unix shell)",
+            "Powershell",
+            "LaTeX",
+            "Git",
+            "GitHub",
+            "GitHub Actions",
+            "pandas (software)",
+            "Computational physics",
+            "Statistical physics",
+            "Physiology",
+            "Mathematical modelling",
+            "Monte Carlo methods",
+            "Molecular dynamics simulation",
+            "Data science",
+            "Machine learning",
+            "Artifical Intelligence",
+            "Neural networks",
+            "OpenMPI",
+            "Parallel computing"
+        ]
     }
 
 }
