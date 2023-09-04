@@ -415,20 +415,30 @@
 
     "James Sinnott": {
         "interests":[
-            "Data science",
             "Health informatics",
+            "Web accessibility",
             "Usability",
             "User interface design",
             "User experience",
             "Git",
             "JavaScript",
+            "JSON",
+            "HTML",
+            "CSS",
+            "Vue.js",
+            "Node.js",
             "Linux",
-            "MacOS",
-            "MongoDB",
-            "Objective-C",
-            "Perl",
+            "macOS",
             "Python (programming language)",
-            "SQL"
+            "SQL",
+            "Flask (web framework)",
+            "FastAPI",
+            "Data visualization",
+            "Web development",
+            "Web application",
+            "Jira",
+            "Agile software development",
+            "Docker (software)"
         ]
     },
 
