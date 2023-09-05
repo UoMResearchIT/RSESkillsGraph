@@ -779,6 +779,46 @@
             "OpenMPI",
             "Parallel computing"
         ]
-    }
+    },
 
+    "Erdem Atbas": {
+        "interests":[
+            "Embedded system",
+            "Mobile app",
+            "Real-time simulation",
+            "C++",
+            "C# (programming language)",
+            "Java (programming language)",
+            "Python (programming language)", 
+            "MATLAB",
+            "Visual Studio",
+            "Android (operating system)",
+            "MacOS",
+            "Machine learning",
+            ".NET Framework",
+            "Artifical Intelligence",
+            "Cloud computing",
+            "Data analysis",
+            "Health data",
+            "Trello",
+            "HTML",
+            "JSON",
+            "Internet of things",
+            "Mobile App Development",
+            "Natural language processing",
+            "Neural networks",
+	        "iOS",
+            "Android SDK",
+            "Microsoft Windows",
+            "User interface design",
+            "Engineering",
+            "Visual Basic for Applications",
+            "Git",
+            "GitHub",
+	        "Jira (software)",
+	        "Agile software development",
+            "XCode",
+            "Web scraping"
+        ]
+    }
 }
