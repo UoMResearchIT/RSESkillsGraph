@@ -299,26 +299,6 @@
         ]
     },
 
-
-    "Kamilla Kopec-Harding": {
-        "interests":[
-            "Data analysis",
-            "Data science",
-            "Data preparation",
-            "Data integration",
-            "Computational chemistry",
-            "Python (programming language)",
-            "Stata",
-            "R (programming language)",
-            "SPSS",
-            "Text mining",
-            "Structured Prediction",
-            "Health data",
-            "Real world data"
-        ]
-    },
-
-
     "Andrew Rowley": {
         "interests":[
             "Spiking neural network",
@@ -564,29 +544,6 @@
         ],
         "technologies": [
             "Adrian is the Head of Research Software Engineering"
-        ]
-    },
-
-
-    "David Mawdsley": {
-        "interests":[
-            "Python (programming language)",
-            "R (programming language)",
-            "Instructor-led training",
-            "SQL",
-            "Git",
-            "Markdown",
-            "Data science",
-            "Data visualization",
-            "Linux",
-            "Docker (software)",
-            "LaTeX",
-            "Make (software)",
-            "Reproducibility",
-            "Raspberry Pi"
-        ],
-        "technologies": [
-            "Contact David for Data Science and AI projects"
         ]
     },
     
