@@ -777,5 +777,30 @@
             "XCode",
             "Web scraping"
         ]
+    },
+  
+    "Jonny Taylor": {
+        "interests":[
+            "Python (programming language)",
+            "Igor Pro",
+            "C++/CLI",
+            "Machine learning",
+            "Data wrangling",
+            "Data analysis",
+            "Data science",
+            "pandas (software)",
+            "Git",
+            "Atmospheric science",
+            "Natural environmental",
+            "Meteorology",
+            "Physics",
+            "Time series",
+            "Artifical intelligence",
+            "Artificial neural network",
+            "TensorFlow",
+            "Keras (software)",
+            "Arduino",
+            "LaTeX"
+        ]
     }
 }
