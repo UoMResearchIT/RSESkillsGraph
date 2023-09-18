@@ -142,22 +142,22 @@
     "Theresa Teng": {
         "interests": [
             "Application design",
-            "ASP.NET Blazor",
+            "Blazor",
             "ASP.NET MVC",
             "Business analysis",
             "C# (programming language)",
-            "Django",
+            "Django (web framework)",
             "HTML",
             "JavaScript",
-            "Jira",
+            "Jira (software)",
             "JQuery",
             "Microsoft Windows",
-            "Microsoft SQL",
+            "Microsoft SQL Server",
             "Project management",
             "PostgreSQL",
             "SQL",
             "Visual Studio",
-            "Wagtail",
+            "Wagtail (CMS)",
             "Web application"
             "Web development"
         ],
