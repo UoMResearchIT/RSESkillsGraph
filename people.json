@@ -141,24 +141,28 @@
 
     "Theresa Teng": {
         "interests": [
-            "AngularJS",
             "Application design",
-            "ASP.NET",
+            "Blazor",
+            "ASP.NET MVC",
             "Business analysis",
             "C# (programming language)",
+            "Django (web framework)",
             "HTML",
             "JavaScript",
+            "Jira (software)",
             "JQuery",
             "Microsoft Windows",
-            "Model-view controller",
-            "Omeka",
+            "Microsoft SQL Server",
             "Project management",
+            "PostgreSQL",
             "SQL",
             "Visual Studio",
+            "Wagtail (CMS)",
             "Web application"
+            "Web development"
         ],
         "technologies": [
-            "Contact Theresa for RSE  projects in FHUM"
+            "Contact Theresa for RSE projects in FHUM"
         ]
     },
 
