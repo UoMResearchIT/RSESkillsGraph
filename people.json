@@ -806,5 +806,30 @@
             "Arduino",
             "LaTeX"
         ]
+    },
+
+    "Awais Khan": {
+        "interests": [
+            "Xamarin.Forms",
+            "Mobile App Development",
+            "C# (programming language)",
+            "ASP.NET Core",
+            "Jira",
+            "PostgreSQL",
+            "SQL",
+            "JSON",
+            "HTML",
+            "Git",
+            "JavaScript",
+            "React",
+            "Web development",
+            "GraphQL",
+            "Docker",
+            "Elixir",
+            "Phoenix",
+            "Software Testing",
+            "Behaviour Driven Development (BDD)",
+            "React Testing Library"
+        ]
     }
 }
