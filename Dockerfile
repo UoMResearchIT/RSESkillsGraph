@@ -22,6 +22,11 @@ WORKDIR /app
 
 RUN pip3 install -r requirements.txt
 
+# This is needed because incompatible versions lead to an "exit
+# success" from pip install above.  See
+# https://github.com/pypa/pip/issues/6969.
+RUN pip3 check
+
 COPY . /app
 
 ARG last_update
