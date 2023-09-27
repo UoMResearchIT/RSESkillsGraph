@@ -3,19 +3,11 @@ FROM ubuntu:20.04
 # Maintainer of the docker image, not the code!
 MAINTAINER "Ian Hinder <ian.hinder@manchester.ac.uk>"
 
-RUN apt-get update -y
-
-RUN apt-get install -y python3
-RUN apt-get install -y python3-pip
-RUN apt-get install -y python3-requests
-
 ARG DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get install -y pkg-config
-RUN apt-get install -y graphviz
-RUN apt-get install -y libgraphviz-dev
-
-RUN rm -rf /var/lib/apt/lists/*
+RUN apt-get update -y && \
+    apt-get install -y python3 python3-pip python3-requests pkg-config graphviz libgraphviz-dev && \
+    rm -rf /var/lib/apt/lists/*
 
 COPY ./requirements.txt /app/requirements.txt
 
