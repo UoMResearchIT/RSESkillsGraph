@@ -20,8 +20,6 @@ COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
 
-jjjjj
-
 RUN pip3 install -r requirements.txt
 
 # This is needed because incompatible versions lead to an "exit
