@@ -13,11 +13,16 @@ You should add "interests" if you feel confident on being selected to work on a 
 # How to Install / Run
 The `requirements.txt` should contain the Python modules needed.
 
-You also need to install the C-based GraphViz library: e.g. `brew install graphviz`
+You also need to install the C-based GraphViz library: e.g. `brew install graphviz` (MacOS)
 
-To run locally: `python application.py` (where `python` must be Python 3)
+To run locally: `flask run`
 
-We have this running on Azure now as a Docker container and it is published automatically from this repository. To run in Docker, see [Running in Docker](doc/RunningInDocker.md). To run in Docker on Microsoft Azure, see [Running in Docker on Azure](doc/RunningOnAzureWithDocker.md).
+## Docker
+There is a Dockerfile within the repository from which a docker image can be built and run.  See [Running in Docker](doc/RunningInDocker.md).
+
+There is an instance of this software running at the University of Manchester on a Research Virtual Machine.
+
+There is documentation for running in Microsoft Azure: [Running in Docker on Azure](doc/RunningOnAzureWithDocker.md).
 
 # Headshots
 Portrait images of people can be included in an images directory, but we don't use that faclity at the moment.
