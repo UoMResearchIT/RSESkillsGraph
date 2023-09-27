@@ -27,9 +27,9 @@ COPY . /app
 ARG last_update
 ENV LAST_UPDATE=$last_update
 
-EXPOSE 5001
+EXPOSE 5000
 ENV FLASK_APP=application.py
 
 ENTRYPOINT [ "flask" ]
 
-CMD [ "run", "-h", "0.0.0.0", "-p", "5001"]
+CMD [ "run", "-h", "0.0.0.0"]
