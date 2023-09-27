@@ -1,5 +1,4 @@
 
-#
 name: Run tests
 
 on:
@@ -10,32 +9,27 @@ on:
 env:
   TEST_TAG: user/app:test
 
-# There is a single job in this workflow. It's configured to run on the latest available version of Ubuntu.
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
       contents: read
-      # 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      # This step uses the `docker/build-push-action` action to build the image, based on your repository's `Dockerfile`.
-      # It uses the `context` parameter to define the build's context as the set of files located in the specified path. For more information, see "[Usage](https://github.com/docker/build-push-action#usage)" in the README of the `docker/build-push-action` repository.
 
-      - name: Test JSON
+      - name: Test people.json
         run: |
           python3 -c 'import json; json.load(open("people.json"))'
 
-      - name: Build Docker image
-        uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
-        with:
-          context: .
-          push: false
-          load: true
-          tags: ${{ env.TEST_TAG }}
+      - name: Build image
+        run: |
+          docker compose build
 
-      # - name: Test
-      #   run: |
-      #     docker run --rm ${{ env.TEST_TAG }} python3 -c 'import json; json.load(open("people.json"))'
+      - name: Test image
+        run: |
+          # Launch the project from docker-compose.yml and wait up to
+          # 30s for its built-in health check to return "healthy"
+          docker compose up --wait --wait-timeout 30
+          docker compose down
