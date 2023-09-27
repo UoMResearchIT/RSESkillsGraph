@@ -15,7 +15,7 @@ The `requirements.txt` should contain the Python modules needed.
 
 You also need to install the C-based GraphViz library: e.g. `brew install graphviz` (MacOS)
 
-To run locally: `flask run -h 0.0.0.0 -p 5001`
+To run locally: `flask run`
 
 ## Docker
 There is a Dockerfile within the repository from which a docker image can be built and run. The application can be accessed via localhost on port 5001.    
