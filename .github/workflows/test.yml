@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
       contents: read
@@ -15,15 +16,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Test people.json
+      # Check that people.json can be parsed as valid JSON.
+      - name: Test people.json is valid JSON
         run: |
           python3 -c 'import json; json.load(open("people.json"))'
 
-      - name: Build image
+      # Check that the image builds without errors
+      - name: Test image builds
         run: |
           docker compose build
 
-      - name: Test image
+      # Check that the container can start and become healthy
+      - name: Test container can start and is healthy
         run: |
           # Launch the project from docker-compose.yml and wait up to
           # 30s for its built-in health check to return "healthy"
