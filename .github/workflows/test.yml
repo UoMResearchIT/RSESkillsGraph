@@ -5,9 +5,6 @@ on:
   workflow_dispatch:
   pull_request:
 
-env:
-  TEST_TAG: user/app:test
-
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
