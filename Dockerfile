@@ -12,7 +12,8 @@ RUN apt-get update -y && \
     python3-requests \
     pkg-config \
     graphviz \
-    libgraphviz-dev && \
+    libgraphviz-dev \
+    curl && \
     rm -rf /var/lib/apt/lists/*
 # Note: the ordering of these packages matters as libgraphviz-dev requires python3-pip
 
@@ -38,3 +39,8 @@ ENV FLASK_APP=application.py
 ENTRYPOINT [ "flask" ]
 
 CMD [ "run", "-h", "0.0.0.0"]
+
+# TODO: in docker 25 and later, we should use --start-interval and
+# --start-period to perform more frequent checks on startup to speed
+# up tests
+HEALTHCHECK --interval=10s CMD curl --fail http://localhost:5000 || exit 1   
