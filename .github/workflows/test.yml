@@ -24,12 +24,12 @@ jobs:
       # Check that the image builds without errors
       - name: Test image builds
         run: |
-          docker compose build
+          docker compose -f compose.yml build
 
       # Check that the container can start and become healthy
       - name: Test container can start and is healthy
         run: |
           # Launch the project from docker-compose.yml and wait up to
           # 30s for its built-in health check to return "healthy"
-          docker compose up --wait --wait-timeout 30
-          docker compose down
+          docker compose -f compose.yml up --wait --wait-timeout 30
+          docker compose -f compose.yml down
