@@ -1,8 +1,6 @@
 {
     "Adina Rahim": {
         "interests": [
-            "C (programming language)",
-            "C++ (programming language)",
             "Python (programming language)",
             "R (programming language)",
             "SQL (database language)",
@@ -13,12 +11,12 @@
             "Machine Learning",
             "Deep Learning for Computer Vision",
             "Data Science",
-            "Data Minning",
-            "Association Rule Minning",
-            "Sequential Pattern Minning",
+            "Data Mining",
+            "Association Rule Mining",
+            "Sequential Pattern Mining",
             "Link Analysis",
             "Analysis of Large Graphs: Trust Rank and Webspam",
-            "Text Minning (Regular Expressions)",
+            "Text Mining (Regular Expressions)",
             "Recommender Systems",
             "Alexa Skill Development"
         ]
