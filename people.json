@@ -1,4 +1,27 @@
 {
+    "Adina Rahim": {
+        "interests": [
+            "Python (programming language)",
+            "R (programming language)",
+            "SQL (database language)",
+            "MySQL (software)",
+            "pandas (library)",
+            "tensorflow (library)",
+            "sklearn (library)",
+            "Machine Learning",
+            "Deep Learning for Computer Vision",
+            "Data Science",
+            "Data Mining",
+            "Association Rule Mining",
+            "Sequential Pattern Mining",
+            "Link Analysis",
+            "Analysis of Large Graphs: Trust Rank and Webspam",
+            "Text Mining (Regular Expressions)",
+            "Recommender Systems",
+            "Alexa Skill Development"
+        ]
+    },
+    
     "Catherine McGuire": {
         "interests": [
             "Python (programming language)",
