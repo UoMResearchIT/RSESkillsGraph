@@ -105,6 +105,7 @@
             "C++",
             "Git",
             "Fossil",
+            "GitHub",
             "Manycore processor",
             "Web service",
             "Representational state transfer",
@@ -113,7 +114,9 @@
             "Apache Maven",
             "Object-oriented analysis and design",
             "Service-oriented architecture",
-            "Compiler"
+            "Compiler",
+            "Embedded system",
+            "Continuous integration"
         ]
     },
 
