@@ -876,5 +876,40 @@
             "Behaviour Driven Development (BDD)",
             "React Testing Library"
         ]
+    },
+    "Mike Jones": {
+      "interests": [
+        "Amazon Web Services",
+        "Bash (Unix shell)",
+        "C",
+        "C++",
+        "Clustered file system",
+        "Curl",
+        "Free and open-source software",
+        "Geographic information system",
+        "GIMP",
+        "Grid computing",
+        "Inkscape",
+        "jq (programming language)",
+        "JSON Web Token",
+        "Let's Encrypt",
+        "Linux",
+        "Micro Bit",
+        "MySQL",
+        "OpenLDAP",
+        "Particle physics",
+        "Perl",
+        "PHP",
+        "Physics",
+        "PostgreSQL",
+        "Public key infrastructure",
+        "Python (programming language)",
+        "Raspberry Pi",
+        "Security Assertion Markup Language",
+        "SVG",
+        "WebRTC",
+        "X.509",
+        "XMLStarlet"
+      ]
     }
 }
