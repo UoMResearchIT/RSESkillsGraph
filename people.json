@@ -145,7 +145,7 @@
             "Cordova",
             "Angular JS",
             "Android (operating system)",
-            "IOS",
+            "iOS",
             "Python (programming language)",
             "TypeScript",
             "R (programming language)",
@@ -158,7 +158,7 @@
             "Interaction design",
             "Linux",
             "Microsoft Windows",
-            "MacOS",
+            "macOS",
             "Version Control",
             "Git"
         ]
@@ -247,7 +247,7 @@
             "Linux",
             "EPOC",
             "Symbian",
-            "MacOS",
+            "macOS",
             "JavaScript",
             "Zend",
             "Adobe Dreamweaver",
@@ -278,7 +278,7 @@
             "Python (programming language)",
             "Bash (Unix shell)",
             "Linux",
-            "MacOS",
+            "macOS",
             "Git",
             "Docker (software)",
             "Jenkins (software)",
@@ -324,7 +324,7 @@
             "Make (software)",
             "Git",
             "Apache Subversion",
-            "MacOS",
+            "macOS",
             "Linux"
         ]
     },
@@ -457,7 +457,7 @@
             "Vue.js",
             "Node.js",
             "Linux",
-            "MacOS",
+            "macOS",
             "Python (programming language)",
             "SQL",
             "Flask (web framework)",
@@ -567,7 +567,7 @@
             "MATLAB",
             "Visual Studio",
             "Android (operating system)",    
-	    "IOS",
+	    "iOS",
             "Android SDK",
             "Java Native Interface",
             "NVIDIA CUDA",
@@ -662,7 +662,7 @@
             "Bash (Unix shell)",
             "Git",
             "FCM make",
-            "MacOS",
+            "macOS",
             "Linux"
         ]
     },
@@ -755,8 +755,8 @@
             "Microsoft SQL Server",
 			"Web development",
             "Mobile Development",
-            "MacOS",
-            "IOS"
+            "macOS",
+            "iOS"
         ]
     },
 
@@ -800,7 +800,7 @@
             "MATLAB",
             "Visual Studio",
             "Android (operating system)",
-            "MacOS",
+            "macOS",
             "Machine learning",
             ".NET Framework",
             "Artifical Intelligence",
@@ -814,7 +814,7 @@
             "Mobile app development",
             "Natural language processing",
             "Neural networks",
-	        "IOS",
+	        "iOS",
             "Android SDK",
             "Microsoft Windows",
             "User interface design",
