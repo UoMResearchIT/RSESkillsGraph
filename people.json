@@ -145,7 +145,7 @@
             "Cordova",
             "Angular JS",
             "Android (operating system)",
-            "iOS",
+            "IOS",
             "Python (programming language)",
             "TypeScript",
             "R (programming language)",
@@ -567,7 +567,7 @@
             "MATLAB",
             "Visual Studio",
             "Android (operating system)",    
-	    "iOS",
+	    "IOS",
             "Android SDK",
             "Java Native Interface (JNI)",
             "NVIDIA CUDA",
@@ -603,7 +603,7 @@
             "Mathematical model",
             "Monte Carlo method",
 			"Population dynamics",
-            "gnuplot",
+            "Gnuplot",
 			"C++",
             "Instructor-led training",
 			"Adobe Suite",
@@ -755,7 +755,7 @@
 			"Web development",
             "Mobile Development",
             "MacOS",
-            "iOS"
+            "IOS"
         ]
     },
 
@@ -813,7 +813,7 @@
             "Mobile App Development",
             "Natural language processing",
             "Neural networks",
-	        "iOS",
+	        "IOS",
             "Android SDK",
             "Microsoft Windows",
             "User interface design",
