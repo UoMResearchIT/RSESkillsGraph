@@ -137,8 +137,8 @@
             "Web scraping",
             "Scripting",
             "DevOps",
-            "Django",
-            "Wagtail",
+            "Django (web framework)",
+            "Wagtail (CMS)",
             "Flask (web framework)",
             "Mobile app development",
             "Ionic",
@@ -148,7 +148,6 @@
             "iOS",
             "Python (programming language)",
             "TypeScript",
-            "R (programming language)",
             "Markdown",
             "JavaScript",
             "C Sharp (programming language)",
@@ -160,7 +159,14 @@
             "Microsoft Windows",
             "macOS",
             "Version Control",
-            "Git"
+            "Git",
+            "Bash (Unix shell)",
+            "Virtualization",
+            "Windows Subsystem for Linux",
+            "VS Code",
+            "Web accessibility",
+            "Software carpentry",
+            "ArcGIS"
         ]
     },
 
