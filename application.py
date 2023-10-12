@@ -18,8 +18,28 @@ import sys
 import os
 import os.path
 import natsort
+import logging
 from collections import OrderedDict
 from werkzeug.middleware.proxy_fix import ProxyFix
+
+from logging.config import dictConfig
+
+# From https://flask.palletsprojects.com/en/2.3.x/logging/
+dictConfig({
+    'version': 1,
+    'formatters': {'default': {
+        'format': '[%(asctime)s] %(levelname)s in %(module)s: %(message)s',
+    }},
+    'handlers': {'wsgi': {
+        'class': 'logging.StreamHandler',
+        'stream': 'ext://flask.logging.wsgi_errors_stream',
+        'formatter': 'default'
+    }},
+    'root': {
+        'level': 'WARN', # Adapt this to output other warnings
+        'handlers': ['wsgi']
+    }
+})
 
 
 app = Flask(__name__)
