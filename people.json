@@ -3,11 +3,11 @@
         "interests": [
             "Python (programming language)",
             "R (programming language)",
-            "SQL (database language)",
-            "MySQL (software)",
-            "Pandas (library)",
-            "tensorflow (library)",
-            "sklearn (library)",
+            "SQL",
+            "MySQL",
+            "Pandas (software)",
+            "TensorFlow",
+            "Scikit-learn",
             "Machine Learning",
             "Deep Learning for Computer Vision",
             "Data Science",
@@ -16,7 +16,7 @@
             "Sequential Pattern Mining",
             "Link Analysis",
             "Analysis of Large Graphs: Trust Rank and Webspam",
-            "Text Mining (Regular Expressions)",
+            "Text mining",
             "Recommender Systems",
             "Alexa Skill Development"
         ]
@@ -51,14 +51,14 @@
         "SQL",
         "Visual Studio",
         "JSON",
-        "LESS (style sheet language)",
+        "Less (style sheet language)",
         "HTML",
         "Database Design",
         "JQuery",
         "Web development",
         "XML",
         "Xamarin.Forms",
-        "Mobile App Development",
+        "Mobile app development",
         "Jira",
         "Model View Controller",
         "Blazor"
@@ -130,7 +130,7 @@
             "HTC Vive",
             "Oculus Rift",
             "Oculus Quest",
-            "LEAP Motion",
+            "Leap Motion",
             "VRTK",
             "Unity (game engine)",
             "Web development",
@@ -140,7 +140,7 @@
             "Django",
             "Wagtail",
             "Flask (web framework)",
-            "Mobile app",
+            "Mobile app development",
             "Ionic",
             "Cordova",
             "Angular JS",
@@ -294,7 +294,7 @@
         "interests":[
             "HPC",
             "Instructor-led training",
-            "Software carpentry",
+            "The Carpentries",
             "LaTeX",
             "MATLAB",
             "Python (programming language)",
@@ -350,7 +350,7 @@
             "Web application",
             "High-throughput computing",
             "Windows Subsystem for Linux",
-            "Java Native Interface (JNI)"
+            "Java Native Interface"
         ]
     },
 
@@ -406,7 +406,7 @@
             "CodeIgniter",
             "Design Patterns",
             "Computational linguistics",
-            "Text Mining",
+            "Text mining",
             "Parallel computing"
         ]
     },
@@ -475,7 +475,7 @@
     "Andrew Jerrison": {
         "interests": [
             "Web application",
-            "Mobile app",
+            "Mobile app development",
             "Desktop app",
             "Application design",
             "vis.js",
@@ -517,7 +517,7 @@
             "Internet of things",
             "JSON",
             "JavaScript",
-            "LEAP Motion",
+            "Leap Motion",
             "Linux",
             "Mixed reality",
             "MySQL",
@@ -553,7 +553,7 @@
         "interests":[
             "Embedded system",
             "General-purpose computing on graphics processing units",
-            "Mobile app",
+            "Mobile app development",
             "Game design",
             "Virtual reality",
             "Real-time simulation",
@@ -569,7 +569,7 @@
             "Android (operating system)",    
 	    "IOS",
             "Android SDK",
-            "Java Native Interface (JNI)",
+            "Java Native Interface",
             "NVIDIA CUDA",
             "OpenGL",
             "Unreal Engine",
@@ -651,7 +651,7 @@
             "Atmospheric chemistry",
             "Chemistry-Climate modelling",
             "Weather Research and Forecasting Model",
-	    "Met Office Unified Model",
+	    "Unified Model",
 	    "Climate Change",
 	    "Air Quality",
             "High-performance computing",
@@ -736,10 +736,11 @@
             "LaTeX",
             "PHP",
             "ARM",
-            "VeriLog",
+            "Verilog",
             "Haskell (programming language)",
 			"Java (programming language)",
-            "C/C++ (programming langauge)",
+            "C (programming language)",
+            "C++ (programming language)",
             "C Sharp (programming language)",
             "ASP.NET",
             "Java Spring",
@@ -762,9 +763,9 @@
     "Chris Fullerton": {
         "interests":[
             "Python (programming language)",
-            "C (programming langauge)",
+            "C (programming language)",
             "C++ (programming language)",
-            "MATLAB (programming language)",
+            "MATLAB",
             "Bash (Unix shell)",
             "Powershell",
             "LaTeX",
@@ -790,7 +791,7 @@
     "Erdem Atbas": {
         "interests":[
             "Embedded system",
-            "Mobile app",
+            "Mobile app development",
             "Real-time simulation",
             "C++",
             "C Sharp (programming language)",
@@ -810,7 +811,7 @@
             "HTML",
             "JSON",
             "Internet of things",
-            "Mobile App Development",
+            "Mobile app development",
             "Natural language processing",
             "Neural networks",
 	        "IOS",
@@ -847,7 +848,7 @@
             "Artifical intelligence",
             "Artificial neural network",
             "TensorFlow",
-            "Keras (software)",
+            "Keras",
             "Arduino",
             "LaTeX"
         ]
@@ -856,7 +857,7 @@
     "Awais Khan": {
         "interests": [
             "Xamarin.Forms",
-            "Mobile App Development",
+            "Mobile app development",
             "C Sharp (programming language)",
             "ASP.NET Core",
             "Jira",
@@ -881,7 +882,7 @@
       "interests": [
         "Amazon Web Services",
         "Bash (Unix shell)",
-        "C",
+        "C (programming language)",
         "C++",
         "Clustered file system",
         "Curl",
