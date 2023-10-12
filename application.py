@@ -52,6 +52,10 @@ os.environ['GV_FILE_PATH'] = os.path.abspath(os.path.join(os.path.dirname(__file
 print('PATH: ' + os.environ['PATH'], file=sys.stderr)
 print('GV_FILE_PATH: ' + os.environ['GV_FILE_PATH'], file=sys.stderr)
 
+class TitleNotFoundException(Exception):
+    pass
+
+
 def get_people():
     filepath = os.path.abspath(os.path.join(os.path.dirname(__file__), 'people.json'))
     return get_file_contents(filepath)
@@ -119,6 +123,38 @@ def get_titles(topic):
         print("ERROR: no title found for topic: " + topic.encode('utf8'))
 
     return results
+
+
+def canonical_title(topic):
+    """Query wikipedia to find the canonical title of a topic"""
+
+    url = 'https://en.wikipedia.org/w/api.php'
+    values = {
+        'action': 'query',
+        'titles': topic,
+        'format': 'json',
+    }
+
+    data = urllib.parse.urlencode(values)
+    data = data.encode('utf-8')
+
+    request = urllib.request.Request(url, data)
+    response = urllib.request.urlopen(request)
+    json_response = response.read()
+    json_result = json.loads(json_response)
+    page = list(json_result['query']['pages'].values())[0]
+
+    if "pageid" in page:
+        canonical_title = page["title"]
+    elif "missing" in page:
+        raise TitleNotFoundException(
+            f"Topic {topic} is not the title of a Wikipedia article")
+    else:
+        raise Exception("Unrecognised response from wikipedia in \
+        canonical_title")
+
+    return canonical_title
+
 
 def get_graph_string(graph):
     #output = StringIO.StringIO()
