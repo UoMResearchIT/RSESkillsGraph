@@ -29,3 +29,7 @@ jobs:
           # 30s for its built-in health check to return "healthy"
           docker compose -f compose.yml up --wait --wait-timeout 30
           docker compose -f compose.yml down
+
+      - name: Run Pytest tests
+        run: |
+          docker compose -f compose.yml run --entrypoint "" web pytest
