@@ -9,27 +9,27 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
       contents: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Check that people.json can be parsed as valid JSON.
       - name: Test people.json is valid JSON
         run: |
           python3 -c 'import json; json.load(open("people.json"))'
 
-      # Check that the image builds without errors
       - name: Test image builds
         run: |
           docker compose -f compose.yml build
 
-      # Check that the container can start and become healthy
       - name: Test container can start and is healthy
         run: |
           # Launch the project from docker-compose.yml and wait up to
           # 30s for its built-in health check to return "healthy"
           docker compose -f compose.yml up --wait --wait-timeout 30
           docker compose -f compose.yml down
+
+      - name: Run Pytest tests
+        run: |
+          docker compose -f compose.yml run --entrypoint "" web pytest
