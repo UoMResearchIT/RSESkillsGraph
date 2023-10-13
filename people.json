@@ -498,31 +498,27 @@
         "interests":[
             "AWK",
             "Apache",
-            "Augmented reality",
             "Bash (Unix shell)",
             "C (programming language)",
+	    "CSS",
             "C++",
             "Less (style sheet language)",
             "D3.js",
             "Data visualization",
             "Django",
             "Emacs",
+	    "FastAPI",
             "Game design",
             "Git",
             "HPC",
-            "HTC Vive",
             "HTML",
-            "HoloLens",
             "Internet of things",
             "JSON",
             "JavaScript",
-            "Leap Motion",
             "Linux",
             "Mixed reality",
             "MySQL",
             "Node.js",
-            "Oculus Quest",
-            "Oculus Rift",
             "OpenGL",
             "Pandas (software)",
             "ParaView",
@@ -530,9 +526,7 @@
             "Raspberry Pi",
             "SVG",
             "Tmux",
-            "Unity (game engine)",
             "Unreal Engine",
-            "VRTK",
             "Virtual reality",
             "Visualization",
             "Wagtail (CMS)",
@@ -543,7 +537,7 @@
             "Parallel computing"
         ],
         "technologies": [
-            "Contact Louise for RSE projects in FSE"
+            "Louise is the Research Software Architect lead for RSE projects in Web Development/WADS"
         ]
     },
 
