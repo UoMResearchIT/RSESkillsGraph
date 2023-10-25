@@ -4,21 +4,20 @@
             "Python (programming language)",
             "R (programming language)",
             "SQL",
-            "MySQL",
             "Pandas (software)",
             "TensorFlow",
             "Scikit-learn",
             "Machine Learning",
-            "Deep Learning for Computer Vision",
             "Data Science",
             "Data Mining",
-            "Association Rule Mining",
+            "Association Rule Learning",
             "Sequential Pattern Mining",
             "Link Analysis",
-            "Analysis of Large Graphs: Trust Rank and Webspam",
+            "TrustRank",
+            "WebSpam",
             "Text mining",
             "Recommender Systems",
-            "Alexa Skill Development"
+            "Alexa Skills"
         ]
     },
     
