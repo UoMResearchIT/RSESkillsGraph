@@ -26,6 +26,8 @@ def test_titles_are_wikipedia_articles():
 
     for topic in all_topics:
         print(f"Checking {topic}")
+        if topic in exception_list:
+            continue
         try:
             # TODO: we shoulds probably do this in batches to reduce
             # the number of queries to wikipedia, and speed it up
@@ -33,8 +35,6 @@ def test_titles_are_wikipedia_articles():
             if canonical_title != topic:
                 print(f"  ➡️ Should be {canonical_title}")
         except application.TitleNotFoundException:
-            if topic in exception_list:
-                continue
             people_with_this_topic[topic] = [
                 person for person in people.keys()
                 if topic in people[person]["interests"]]
