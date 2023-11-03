@@ -20,7 +20,7 @@
             "Alexa Skills"
         ]
     },
-    
+
     "Catherine McGuire": {
         "interests": [
             "Python (programming language)",
@@ -32,7 +32,7 @@
             "Markdown",
             "Plotly",
             "Pandas (software)",
-            "Streamlit",
+            "Streamlit (software)",
             "Git",
             "Trello",
             "Project management",
@@ -70,7 +70,7 @@
             "Java (programming language)",
             "Internet of things",
             "Smartwatch",
-            "Application design",
+            "Software design",
             "Jira",
             "Trello",
             "Xamarin",
@@ -91,7 +91,7 @@
         "technologies": [
             "Contact Patricia for RSE projects involving mobile apps"
         ]
-	    
+
     },
 
 
@@ -130,7 +130,7 @@
             "Oculus Rift",
             "Oculus Quest",
             "Leap Motion",
-            "VRTK",
+            "Virtual Reality Toolkit (software)",
             "Unity (game engine)",
             "Web development",
             "Web scraping",
@@ -164,7 +164,7 @@
             "Windows Subsystem for Linux",
             "VS Code",
             "Web accessibility",
-            "Software carpentry",
+            "The Carpentries",
             "ArcGIS"
         ]
     },
@@ -486,7 +486,7 @@
             "Alfresco Software",
             "Windows Presentation Foundation",
             "C (programming language)",
-			".Net"
+            ".Net"
         ]
     },
 
@@ -497,14 +497,14 @@
             "Apache",
             "Bash (Unix shell)",
             "C (programming language)",
-	    "CSS",
+        "CSS",
             "C++",
             "Less (style sheet language)",
             "D3.js",
             "Data visualization",
             "Django",
             "Emacs",
-	    "FastAPI",
+        "FastAPI",
             "Game design",
             "Git",
             "HPC",
@@ -556,8 +556,8 @@
             "Java (programming language)",
             "MATLAB",
             "Visual Studio",
-            "Android (operating system)",    
-	    "iOS",
+            "Android (operating system)",
+        "iOS",
             "Android SDK",
             "Java Native Interface",
             "NVIDIA CUDA",
@@ -575,33 +575,33 @@
             "Visual Basic for Applications",
             "Git",
             "Raspberry Pi",
-	    "Blazor",
-	    "ASP.NET",
-	    "GitHub",
-	     "Jira (software)",
-	     "Agile software development"
+        "Blazor",
+        "ASP.NET",
+        "GitHub",
+         "Jira (software)",
+         "Agile software development"
         ],
         "technologies": [
             "Adrian is the Head of Research Software Engineering"
         ]
     },
-    
+
     "Francisco Herrerias-Azcue": {
         "interests":[
             "Statistical physics",
-			"Computational physics",
+            "Computational physics",
             "Mathematical model",
             "Monte Carlo method",
-			"Population dynamics",
+            "Population dynamics",
             "Gnuplot",
-			"C++",
+            "C++",
             "Instructor-led training",
-			"Adobe Creative Suite",
+            "Adobe Creative Suite",
             "LaTeX",
             "MATLAB",
             "Python",
-			"Data Science",
-			"HPC",
+            "Data Science",
+            "HPC",
             "Git"
         ]
     },
@@ -635,15 +635,15 @@
             "Agile software development"
       ]
    },
-	
+
     "Scott Archer-Nicholls": {
         "interests":[
             "Atmospheric chemistry",
-            "Chemistry-Climate modelling",
+            "Climate model",
             "Weather Research and Forecasting Model",
-	    "Unified Model",
-	    "Climate Change",
-	    "Air Quality",
+        "Unified Model",
+        "Climate Change",
+        "Air Quality",
             "High-performance computing",
             "Fortran",
             "Python (programming language)",
@@ -651,12 +651,12 @@
             "R (programming language)",
             "Bash (Unix shell)",
             "Git",
-            "FCM make",
+            "FCM Make (software)",
             "macOS",
             "Linux"
         ]
     },
-    
+
     "Martin Herrerias_Azcue": {
         "interests": [
             "MATLAB",
@@ -695,40 +695,40 @@
 
     "Hugo Chu": {
         "interests": [
-			"Apache Maven",
-			"Database Design",
-			"DevOps",
-			"Docker (software)",
-			"Git",
-			"HTML",
-			"Java (programming language)",
-			"Jakarta Server Pages",
-			"JSON",
-			"JQuery",
-			"JavaScript",
-			"Jenkins (software)",
-			"Linux",
-			"MySQL",
-			"Object-oriented analysis and design",
-			"Python (programming language)",
-			"REST",
-			"SQL",
-			"Web development",
-			"XML"
+            "Apache Maven",
+            "Database Design",
+            "DevOps",
+            "Docker (software)",
+            "Git",
+            "HTML",
+            "Java (programming language)",
+            "Jakarta Server Pages",
+            "JSON",
+            "JQuery",
+            "JavaScript",
+            "Jenkins (software)",
+            "Linux",
+            "MySQL",
+            "Object-oriented analysis and design",
+            "Python (programming language)",
+            "REST",
+            "SQL",
+            "Web development",
+            "XML"
         ]
     },
 
 
     "Justin Leung": {
         "interests": [
-			"Git",
-			"HTML",
+            "Git",
+            "HTML",
             "LaTeX",
             "PHP",
             "ARM",
             "Verilog",
             "Haskell (programming language)",
-			"Java (programming language)",
+            "Java (programming language)",
             "C (programming language)",
             "C++ (programming language)",
             "C Sharp (programming language)",
@@ -736,14 +736,14 @@
             "Java Spring",
             "Data science",
             "Machine learning",
-			"JavaScript",
-			"Jenkins (software)",
-			"Linux",
-			"MySQL",
-			"Python (programming language)",
-			"SQL",
+            "JavaScript",
+            "Jenkins (software)",
+            "Linux",
+            "MySQL",
+            "Python (programming language)",
+            "SQL",
             "Microsoft SQL Server",
-			"Web development",
+            "Web development",
             "Mobile Development",
             "macOS",
             "iOS"
@@ -786,7 +786,7 @@
             "C++",
             "C Sharp (programming language)",
             "Java (programming language)",
-            "Python (programming language)", 
+            "Python (programming language)",
             "MATLAB",
             "Visual Studio",
             "Android (operating system)",
@@ -804,7 +804,7 @@
             "Mobile app development",
             "Natural language processing",
             "Neural networks",
-	        "iOS",
+            "iOS",
             "Android SDK",
             "Microsoft Windows",
             "User interface design",
@@ -812,13 +812,13 @@
             "Visual Basic for Applications",
             "Git",
             "GitHub",
-	        "Jira (software)",
-	        "Agile software development",
+            "Jira (software)",
+            "Agile software development",
             "XCode",
             "Web scraping"
         ]
     },
-  
+
     "Jonny Taylor": {
         "interests":[
             "Python (programming language)",
