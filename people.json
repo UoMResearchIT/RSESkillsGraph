@@ -901,5 +901,24 @@
         "X.509",
         "XMLStarlet"
       ]
+    },
+
+    "Abby Gavin": {
+      "interests": [
+        "Agile software development",
+        "C Sharp (programming language)",
+        "Visual Studio",
+        "JSON",
+        "HTML",
+        "Web development",
+        "Jira",
+        "Blazor",
+        "Javascript",
+        "LaTeX",
+        "Git",
+        "React",
+        "Microsoft Windows",
+        "Java (programming language)"
+      ]
     }
 }
