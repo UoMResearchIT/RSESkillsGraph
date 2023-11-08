@@ -4,24 +4,23 @@
             "Python (programming language)",
             "R (programming language)",
             "SQL",
-            "MySQL",
             "Pandas (software)",
             "TensorFlow",
             "Scikit-learn",
             "Machine Learning",
-            "Deep Learning for Computer Vision",
             "Data Science",
             "Data Mining",
-            "Association Rule Mining",
+            "Association Rule Learning",
             "Sequential Pattern Mining",
             "Link Analysis",
-            "Analysis of Large Graphs: Trust Rank and Webspam",
+            "TrustRank",
+            "WebSpam",
             "Text mining",
             "Recommender Systems",
-            "Alexa Skill Development"
+            "Alexa Skills"
         ]
     },
-    
+
     "Catherine McGuire": {
         "interests": [
             "Python (programming language)",
@@ -33,7 +32,7 @@
             "Markdown",
             "Plotly",
             "Pandas (software)",
-            "Streamlit",
+            "Streamlit (software)",
             "Git",
             "Trello",
             "Project management",
@@ -44,8 +43,8 @@
 
     "Phil Bradbury": {
       "interests": [
-        "Application design",
         "ASP.NET",
+        "Agile software development",
         "C Sharp (programming language)",
         "Project management",
         "SQL",
@@ -71,7 +70,7 @@
             "Java (programming language)",
             "Internet of things",
             "Smartwatch",
-            "Application design",
+            "Software design",
             "Jira",
             "Trello",
             "Xamarin",
@@ -92,7 +91,7 @@
         "technologies": [
             "Contact Patricia for RSE projects involving mobile apps"
         ]
-	    
+
     },
 
 
@@ -131,14 +130,14 @@
             "Oculus Rift",
             "Oculus Quest",
             "Leap Motion",
-            "VRTK",
+            "Virtual Reality Toolkit (software)",
             "Unity (game engine)",
             "Web development",
             "Web scraping",
             "Scripting",
             "DevOps",
-            "Django",
-            "Wagtail",
+            "Django (web framework)",
+            "Wagtail (CMS)",
             "Flask (web framework)",
             "Mobile app development",
             "Ionic",
@@ -148,7 +147,6 @@
             "iOS",
             "Python (programming language)",
             "TypeScript",
-            "R (programming language)",
             "Markdown",
             "JavaScript",
             "C Sharp (programming language)",
@@ -160,14 +158,20 @@
             "Microsoft Windows",
             "macOS",
             "Version Control",
-            "Git"
+            "Git",
+            "Bash (Unix shell)",
+            "Virtualization",
+            "Windows Subsystem for Linux",
+            "VS Code",
+            "Web accessibility",
+            "The Carpentries",
+            "ArcGIS"
         ]
     },
 
 
     "Theresa Teng": {
         "interests": [
-            "Application design",
             "Blazor",
             "ASP.NET MVC",
             "Business analysis",
@@ -263,7 +267,6 @@
             "Reproducibility",
             "Virtualization",
             "Software testing",
-            "Correctness testing",
             "Visualization",
             "Middleware",
             "Numerical methods",
@@ -369,7 +372,6 @@
             "Instructor-led training",
             "Data science",
             "Data visualization",
-            "Streamlit",
             "Monte Carlo method"
         ]
     },
@@ -477,20 +479,14 @@
             "Web application",
             "Mobile app development",
             "Desktop app",
-            "Application design",
-            "vis.js",
             "C Sharp (programming language)",
             "JavaScript",
             "ASP.NET",
-            "Microsoft Azure",
-            "Cordova",
             "SQL",
-            "Alfresco",
-            "UWP",
-            "C (programming language)"
-        ],
-        "technologies": [
-            "Contact Andrew for RSE projects in FBMH"
+            "Alfresco Software",
+            "Windows Presentation Foundation",
+            "C (programming language)",
+            ".Net"
         ]
     },
 
@@ -499,31 +495,27 @@
         "interests":[
             "AWK",
             "Apache",
-            "Augmented reality",
             "Bash (Unix shell)",
             "C (programming language)",
+        "CSS",
             "C++",
             "Less (style sheet language)",
             "D3.js",
             "Data visualization",
             "Django",
             "Emacs",
+        "FastAPI",
             "Game design",
             "Git",
             "HPC",
-            "HTC Vive",
             "HTML",
-            "HoloLens",
             "Internet of things",
             "JSON",
             "JavaScript",
-            "Leap Motion",
             "Linux",
             "Mixed reality",
             "MySQL",
             "Node.js",
-            "Oculus Quest",
-            "Oculus Rift",
             "OpenGL",
             "Pandas (software)",
             "ParaView",
@@ -531,9 +523,7 @@
             "Raspberry Pi",
             "SVG",
             "Tmux",
-            "Unity (game engine)",
             "Unreal Engine",
-            "VRTK",
             "Virtual reality",
             "Visualization",
             "Wagtail (CMS)",
@@ -544,7 +534,7 @@
             "Parallel computing"
         ],
         "technologies": [
-            "Contact Louise for RSE projects in FSE"
+            "Louise is the Research Software Architect lead for RSE projects in Web Development/WADS"
         ]
     },
 
@@ -566,8 +556,8 @@
             "Java (programming language)",
             "MATLAB",
             "Visual Studio",
-            "Android (operating system)",    
-	    "iOS",
+            "Android (operating system)",
+        "iOS",
             "Android SDK",
             "Java Native Interface",
             "NVIDIA CUDA",
@@ -585,33 +575,33 @@
             "Visual Basic for Applications",
             "Git",
             "Raspberry Pi",
-	    "Blazor",
-	    "ASP.NET",
-	    "GitHub",
-	     "Jira (software)",
-	     "Agile software development"
+        "Blazor",
+        "ASP.NET",
+        "GitHub",
+         "Jira (software)",
+         "Agile software development"
         ],
         "technologies": [
             "Adrian is the Head of Research Software Engineering"
         ]
     },
-    
+
     "Francisco Herrerias-Azcue": {
         "interests":[
             "Statistical physics",
-			"Computational physics",
+            "Computational physics",
             "Mathematical model",
             "Monte Carlo method",
-			"Population dynamics",
+            "Population dynamics",
             "Gnuplot",
-			"C++",
+            "C++",
             "Instructor-led training",
-			"Adobe Creative Suite",
+            "Adobe Creative Suite",
             "LaTeX",
             "MATLAB",
             "Python",
-			"Data Science",
-			"HPC",
+            "Data Science",
+            "HPC",
             "Git"
         ]
     },
@@ -631,7 +621,7 @@
             "CSS",
             "SASS",
             "JavaScript",
-            "Application design",
+            "Applications Architecture",
             "User experience",
             "User interface",
             "PyGTK",
@@ -645,16 +635,16 @@
             "Agile software development"
       ]
    },
-	
+
     "Scott Archer-Nicholls": {
         "interests":[
             "Atmospheric chemistry",
             "Climate model",
-	    "Chemical transport model",
+	          "Chemical transport model",
             "Weather Research and Forecasting Model",
-	    "Unified Model",
-	    "Climate Change",
-	    "Air Quality",
+	          "Unified Model",
+	          "Climate Change",
+	          "Air Quality",
             "Data wrangling",
             "Data analysis",
             "Data science",
@@ -670,7 +660,7 @@
             "Linux"
         ]
     },
-    
+
     "Martin Herrerias_Azcue": {
         "interests": [
             "MATLAB",
@@ -709,40 +699,40 @@
 
     "Hugo Chu": {
         "interests": [
-			"Apache Maven",
-			"Database Design",
-			"DevOps",
-			"Docker (software)",
-			"Git",
-			"HTML",
-			"Java (programming language)",
-			"Jakarta Server Pages",
-			"JSON",
-			"JQuery",
-			"JavaScript",
-			"Jenkins (software)",
-			"Linux",
-			"MySQL",
-			"Object-oriented analysis and design",
-			"Python (programming language)",
-			"REST",
-			"SQL",
-			"Web development",
-			"XML"
+            "Apache Maven",
+            "Database Design",
+            "DevOps",
+            "Docker (software)",
+            "Git",
+            "HTML",
+            "Java (programming language)",
+            "Jakarta Server Pages",
+            "JSON",
+            "JQuery",
+            "JavaScript",
+            "Jenkins (software)",
+            "Linux",
+            "MySQL",
+            "Object-oriented analysis and design",
+            "Python (programming language)",
+            "REST",
+            "SQL",
+            "Web development",
+            "XML"
         ]
     },
 
 
     "Justin Leung": {
         "interests": [
-			"Git",
-			"HTML",
+            "Git",
+            "HTML",
             "LaTeX",
             "PHP",
             "ARM",
             "Verilog",
             "Haskell (programming language)",
-			"Java (programming language)",
+            "Java (programming language)",
             "C (programming language)",
             "C++ (programming language)",
             "C Sharp (programming language)",
@@ -750,14 +740,14 @@
             "Java Spring",
             "Data science",
             "Machine learning",
-			"JavaScript",
-			"Jenkins (software)",
-			"Linux",
-			"MySQL",
-			"Python (programming language)",
-			"SQL",
+            "JavaScript",
+            "Jenkins (software)",
+            "Linux",
+            "MySQL",
+            "Python (programming language)",
+            "SQL",
             "Microsoft SQL Server",
-			"Web development",
+            "Web development",
             "Mobile Development",
             "macOS",
             "iOS"
@@ -800,7 +790,7 @@
             "C++",
             "C Sharp (programming language)",
             "Java (programming language)",
-            "Python (programming language)", 
+            "Python (programming language)",
             "MATLAB",
             "Visual Studio",
             "Android (operating system)",
@@ -818,7 +808,7 @@
             "Mobile app development",
             "Natural language processing",
             "Neural networks",
-	        "iOS",
+            "iOS",
             "Android SDK",
             "Microsoft Windows",
             "User interface design",
@@ -826,13 +816,13 @@
             "Visual Basic for Applications",
             "Git",
             "GitHub",
-	        "Jira (software)",
-	        "Agile software development",
+            "Jira (software)",
+            "Agile software development",
             "XCode",
             "Web scraping"
         ]
     },
-  
+
     "Jonny Taylor": {
         "interests":[
             "Python (programming language)",
@@ -845,7 +835,7 @@
             "Pandas (software)",
             "Git",
             "Atmospheric science",
-            "Natural environmental",
+            "Environmental Science",
             "Meteorology",
             "Physics",
             "Time series",
@@ -878,8 +868,7 @@
             "Elixir",
             "Phoenix",
             "Software Testing",
-            "Behavior-driven development",
-            "React Testing Library"
+            "Behavior-driven development"
         ]
     },
     "Mike Jones": {
@@ -916,5 +905,38 @@
         "X.509",
         "XMLStarlet"
       ]
+    },
+    
+    "Andrew Gait": {
+        "interests":[
+            "C (programming language)",
+            "C++",
+            "Python (programming language)",
+            "Linux",
+            "Microsoft Windows",
+            "Bash (Unix shell)",
+            "macOS",
+            "Version Control",
+            "Git",
+            "GitHub",
+            "Spiking neural network",
+            "Neuromorphic engineering",
+            "SpiNNaker",
+            "Travis CI",
+            "Jenkins (software)",
+            "Eclipse (software)",
+            "Visual Studio",
+            "Windows Subsystem for Linux",
+            "Mathematical modelling",
+            "Monte Carlo methods",
+            "Data science",
+            "Machine learning",
+            "Artifical Intelligence",
+            "Neural networks",
+            "MPI",
+            "HPC",
+            "Parallel computing"
+        ]
     }
+
 }
