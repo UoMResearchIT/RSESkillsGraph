@@ -901,5 +901,38 @@
         "X.509",
         "XMLStarlet"
       ]
+    },
+    
+    "Andrew Gait": {
+        "interests":[
+            "C (programming language)",
+            "C++",
+            "Python (programming language)",
+            "Linux",
+            "Microsoft Windows",
+            "Bash (Unix shell)",
+            "macOS",
+            "Version Control",
+            "Git",
+            "GitHub",
+            "Spiking neural network",
+            "Neuromorphic engineering",
+            "SpiNNaker",
+            "Travis CI",
+            "Jenkins (software)",
+            "Eclipse (software)",
+            "Visual Studio",
+            "Windows Subsystem for Linux",
+            "Mathematical modelling",
+            "Monte Carlo methods",
+            "Data science",
+            "Machine learning",
+            "Artifical Intelligence",
+            "Neural networks",
+            "MPI",
+            "HPC",
+            "Parallel computing"
+        ]
     }
+
 }
