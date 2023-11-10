@@ -640,10 +640,14 @@
         "interests":[
             "Atmospheric chemistry",
             "Climate model",
+	          "Chemical transport model",
             "Weather Research and Forecasting Model",
-        "Unified Model",
-        "Climate Change",
-        "Air Quality",
+	          "Unified Model",
+	          "Climate Change",
+	          "Air Quality",
+            "Data wrangling",
+            "Data analysis",
+            "Data science",
             "High-performance computing",
             "Fortran",
             "Python (programming language)",
@@ -651,7 +655,7 @@
             "R (programming language)",
             "Bash (Unix shell)",
             "Git",
-            "FCM Make (software)",
+            "Apache Subversion",
             "macOS",
             "Linux"
         ]
