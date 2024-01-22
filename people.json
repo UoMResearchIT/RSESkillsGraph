@@ -961,5 +961,30 @@
             "HPC",
             "Parallel computing"
         ]
+    },
+
+    
+    "Aman Goel": {
+        "interests":[
+            "Agile software development",
+            "Android (operating system)",
+            "Bash (Unix shell)",
+            "C Sharp (programming language)",
+            "Free and open-source software",
+            "Git",
+            "GitHub",
+            "Instructor-led training",
+            "iOS",
+            "Jira",
+            "Linux",
+            "macOS",
+            "Mobile app development",
+            "Python (programming language)",
+            "Software Testing",
+            "The Carpentries",
+            "Version Control",
+            "Visual Studio",
+            "Xamarin.Forms"
+        ]
     }
 }
