@@ -1023,4 +1023,21 @@
             "Xamarin.Forms"
         ]
     }
+
+    "Sarah Jaffa": {
+        "interests":[
+            "Agile software development",
+            "Bash (Unix shell)",
+            "Git",
+            "GitHub",
+            "Instructor-led training",
+            "Python (programming language)",
+	    "C++",
+            "Software Testing",
+	    "High-performance computing",
+            "The Carpentries",
+	    "LaTeX",
+            "Version Control",
+        ]
+    }
 }
