@@ -331,7 +331,7 @@
 
     "Gerard Capes": {
         "interests":[
-            "HPC",
+            "High-performance computing",
             "Instructor-led training",
             "The Carpentries",
             "LaTeX",
@@ -340,7 +340,16 @@
             "Git",
             "Fortran",
             "Make (software)",
-            "Bash (Unix shell)"
+            "Bash (Unix shell)",
+	    "Machine Learning",
+	    "Data Science",
+	    "Agile software development",
+	    "FastAPI",
+	    "Markdown",
+	    "Streamlit",
+	    "Github",
+	    "Artificial intelligence",
+	    "Message Passing Interface"
         ]
     },
 
