@@ -9,4 +9,4 @@ pygraphviz==1.5
 pyparsing==2.4.0
 pytest==7.4.2
 urllib3==1.26.19
-Werkzeug==3.0.1
+Werkzeug==3.0.3
