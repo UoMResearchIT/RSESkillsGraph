@@ -1041,5 +1041,32 @@
             "Visual Studio",
             "Xamarin.Forms"
         ]
+    },
+
+    "Sarah Jaffa": {
+        "interests":[
+            "Agile software development",
+            "Bash (Unix shell)",
+            "Git",
+            "GitHub",
+	    "Docker",
+            "Instructor-led training",
+            "Python (programming language)",
+	    "C++",
+            "Software Testing",
+            "Jira",
+            "Linux",
+	    "High-performance computing",
+            "The Carpentries",
+	    "LaTeX",
+            "Version Control",
+            "HPC",
+            "Parallel computing",
+	    "Monte Carlo methods",
+            "Data science",
+	    "Astrophysics",
+	    "Smoothed-particle hydrodynamics",
+	    "Digital image processing"
+        ]
     }
 }
