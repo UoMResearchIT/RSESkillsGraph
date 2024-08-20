@@ -24,8 +24,6 @@
     "Catherine McGuire": {
         "interests": [
             "Python (programming language)",
-            "HTML",
-            "SQL",
             "LaTeX",
             "Machine learning",
             "Natural language processing",
@@ -34,11 +32,24 @@
             "Pandas (software)",
             "Streamlit (software)",
             "Git",
-            "Trello",
-            "Project management",
+            "GitHub",
             "Agile software development",
-            "Business analysis"
-        ]
+            "Trello",
+            "R (programming language)", 
+            "Shiny (software)",
+            "Artifical Intelligence",
+            "Data Science",
+            "Data analysis",
+            "Data visualization",
+            "Jupyter Notebook",
+            "Astrophysics",
+            "Django",
+            "Wagtail (CMS)",
+            "Bootstrap (front-end framework)",
+            "Microsoft Windows",
+            "Windows Subsystem for Linux",
+            "Bash (Unix shell)"
+          ]
     },
 
     "Phil Bradbury": {
@@ -331,7 +342,7 @@
 
     "Gerard Capes": {
         "interests":[
-            "HPC",
+            "High-performance computing",
             "Instructor-led training",
             "The Carpentries",
             "LaTeX",
@@ -340,7 +351,15 @@
             "Git",
             "Fortran",
             "Make (software)",
-            "Bash (Unix shell)"
+            "Bash (Unix shell)",
+	    "Machine Learning",
+	    "Data Science",
+	    "Agile software development",
+	    "FastAPI",
+	    "Markdown",
+	    "Github",
+	    "Artificial intelligence",
+	    "Message Passing Interface"
         ]
     },
 
