@@ -24,8 +24,6 @@
     "Catherine McGuire": {
         "interests": [
             "Python (programming language)",
-            "HTML",
-            "SQL",
             "LaTeX",
             "Machine learning",
             "Natural language processing",
@@ -34,11 +32,24 @@
             "Pandas (software)",
             "Streamlit (software)",
             "Git",
-            "Trello",
-            "Project management",
+            "GitHub",
             "Agile software development",
-            "Business analysis"
-        ]
+            "Trello",
+            "R (programming language)", 
+            "Shiny (software)",
+            "Artifical Intelligence",
+            "Data Science",
+            "Data analysis",
+            "Data visualization",
+            "Jupyter Notebook",
+            "Astrophysics",
+            "Django",
+            "Wagtail (CMS)",
+            "Bootstrap (front-end framework)",
+            "Microsoft Windows",
+            "Windows Subsystem for Linux",
+            "Bash (Unix shell)"
+          ]
     },
   "Carri King": {
         "interests":[
@@ -798,26 +809,32 @@
 
     "Scott Archer-Nicholls": {
         "interests":[
-            "Atmospheric chemistry",
-            "Climate model",
-	          "Chemical transport model",
-            "Weather Research and Forecasting Model",
-	          "Unified Model",
-	          "Climate Change",
-	          "Air Quality",
-            "Data wrangling",
-            "Data analysis",
-            "Data science",
-            "High-performance computing",
-            "Fortran",
             "Python (programming language)",
+            "Fortran",
             "LaTeX",
             "R (programming language)",
+            "JavaScript",
+            "HTML",
             "Bash (Unix shell)",
             "Git",
             "Apache Subversion",
             "macOS",
-            "Linux"
+            "Linux",
+            "Data wrangling",
+            "Data analysis",
+            "Data science",
+            "High-performance computing",
+            "Project management",
+            "Agile software development",
+            "The Carpentries",
+            "Atmospheric chemistry",
+            "Climate model",
+            "Chemical transport model",
+            "Weather Research and Forecasting Model",
+            "Unified Model",
+            "Climate Change",
+            "Air Quality",
+            "Geographic information system"
         ]
     },
 
@@ -939,6 +956,29 @@
             "Neural networks",
             "OpenMPI",
             "Parallel computing"
+        ]
+    },
+
+    "Chris Lam": {
+        "interests":[
+            "C (programming language)",
+            "C Sharp (programming language)",
+            "C++ (programming language)",
+            "R (programming language)",
+            "Python (programming language)",
+            "JavaScript",
+            "Bash (Unix shell)",
+            "Powershell",
+            "LaTeX",
+            "Git",
+            "GitHub",
+            "GitHub Actions",
+            "Vue.js",
+            "PostgreSQL",
+            "SQLite",
+            "Win32",
+            "WxWidgets",
+            "Pandas (software)"
         ]
     },
 
@@ -1139,6 +1179,60 @@
             "The Carpentries",
             "Version Control",
             "Visual Studio",
+            "Xamarin.Forms"
+        ]
+    },
+
+    "Sarah Jaffa": {
+        "interests":[
+            "Agile software development",
+            "Bash (Unix shell)",
+            "Git",
+            "GitHub",
+	    "Docker",
+            "Instructor-led training",
+            "Python (programming language)",
+	    "C++",
+            "Software Testing",
+            "Jira",
+            "Linux",
+	    "High-performance computing",
+            "The Carpentries",
+	    "LaTeX",
+            "Version Control",
+            "HPC",
+            "Parallel computing",
+	    "Monte Carlo methods",
+            "Data science",
+	    "Astrophysics",
+	    "Smoothed-particle hydrodynamics",
+	    "Digital image processing"
+        ]
+    },
+
+    "Benito Matischen": {
+        "interests":[
+            "Django (web framework)",
+            "Python (programming language)",
+            "Wagtail (CMS)",
+            "Linux",
+            "Windows Subsystem for Linux",
+            "PostgreSQL",
+            "JavaScript",
+            "TypeScript",
+            "CSS",
+            "HTML",
+            "JQuery",
+            "Express.js",
+            "Git",
+            "Pandas (software)",
+            "Chart.js",
+            "LaTeX",
+            "Visual Studio Code",
+            "C Sharp (programming language)",
+            "Visual Studio",
+            "JSON",
+            "Android SDK",
             "Xamarin.Forms"
         ]
     }
