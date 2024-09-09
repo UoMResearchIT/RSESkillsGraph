@@ -698,26 +698,32 @@
 
     "Scott Archer-Nicholls": {
         "interests":[
-            "Atmospheric chemistry",
-            "Climate model",
-	          "Chemical transport model",
-            "Weather Research and Forecasting Model",
-	          "Unified Model",
-	          "Climate Change",
-	          "Air Quality",
-            "Data wrangling",
-            "Data analysis",
-            "Data science",
-            "High-performance computing",
-            "Fortran",
             "Python (programming language)",
+            "Fortran",
             "LaTeX",
             "R (programming language)",
+            "JavaScript",
+            "HTML",
             "Bash (Unix shell)",
             "Git",
             "Apache Subversion",
             "macOS",
-            "Linux"
+            "Linux",
+            "Data wrangling",
+            "Data analysis",
+            "Data science",
+            "High-performance computing",
+            "Project management",
+            "Agile software development",
+            "The Carpentries",
+            "Atmospheric chemistry",
+            "Climate model",
+            "Chemical transport model",
+            "Weather Research and Forecasting Model",
+            "Unified Model",
+            "Climate Change",
+            "Air Quality",
+            "Geographic information system"
         ]
     },
 
@@ -1090,6 +1096,33 @@
 	    "Astrophysics",
 	    "Smoothed-particle hydrodynamics",
 	    "Digital image processing"
+        ]
+    },
+
+    "Benito Matischen": {
+        "interests":[
+            "Django (web framework)",
+            "Python (programming language)",
+            "Wagtail (CMS)",
+            "Linux",
+            "Windows Subsystem for Linux",
+            "PostgreSQL",
+            "JavaScript",
+            "TypeScript",
+            "CSS",
+            "HTML",
+            "JQuery",
+            "Express.js",
+            "Git",
+            "Pandas (software)",
+            "Chart.js",
+            "LaTeX",
+            "Visual Studio Code",
+            "C Sharp (programming language)",
+            "Visual Studio",
+            "JSON",
+            "Android SDK",
+            "Xamarin.Forms"
         ]
     }
 }
