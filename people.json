@@ -1074,5 +1074,32 @@
 	    "Smoothed-particle hydrodynamics",
 	    "Digital image processing"
         ]
+    },
+
+    "Benito Matischen": {
+        "interests":[
+            "Django (web framework)",
+            "Python (programming language)",
+            "Wagtail (CMS)",
+            "Linux",
+            "Windows Subsystem for Linux",
+            "PostgreSQL",
+            "JavaScript",
+            "TypeScript",
+            "CSS",
+            "HTML",
+            "JQuery",
+            "Express.js",
+            "Git",
+            "Pandas (software)",
+            "Chart.js",
+            "LaTeX",
+            "Visual Studio Code",
+            "C Sharp (programming language)",
+            "Visual Studio",
+            "JSON",
+            "Android SDK",
+            "Xamarin.Forms"
+        ]
     }
 }
