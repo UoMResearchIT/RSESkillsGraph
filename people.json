@@ -842,6 +842,29 @@
         ]
     },
 
+    "Chris Lam": {
+        "interests":[
+            "C (programming language)",
+            "C Sharp (programming language)",
+            "C++ (programming language)",
+            "R (programming language)",
+            "Python (programming language)",
+            "JavaScript",
+            "Bash (Unix shell)",
+            "Powershell",
+            "LaTeX",
+            "Git",
+            "GitHub",
+            "GitHub Actions",
+            "Vue.js",
+            "PostgreSQL",
+            "SQLite",
+            "Win32",
+            "wxWidgets",
+            "Pandas (software)"
+        ]
+    },
+
     "Erdem Atbas": {
         "interests":[
             "Embedded system",
