@@ -1,6 +1,10 @@
 # About
 This is the RSE Skills Graph web app written in Python 3 with the Flask framework. Original code by Steve Pettifer; mods by Ian Cottam, Colin Morris, Ian Hinder; The University of Manchester; Apache 2 Licence
 
+# How to Use
+
+There is an existing deployment hosted [here](https://rseskillsgraph.itservices.manchester.ac.uk/). You can click on RSEs' names and see their skills, as well as search by skill.
+
 # How to Add / Update
 To add or update a person's entry, modify the JSON entry in `people.json`. People with spaces in their surname should use underscore e.g. Le_Blanc.
 It will be displayed properly with a space. The "interests" for each person need to come from Wikipedia main entries - that is our controlled vocabulary.
