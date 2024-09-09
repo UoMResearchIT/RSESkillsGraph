@@ -860,7 +860,7 @@
             "PostgreSQL",
             "SQLite",
             "Win32",
-            "wxWidgets",
+            "WxWidgets",
             "Pandas (software)"
         ]
     },
