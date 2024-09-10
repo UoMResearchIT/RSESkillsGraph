@@ -1234,5 +1234,34 @@
             "Android SDK",
             "Xamarin.Forms"
         ]
+    }, 
+
+    "Annie Zheng": {
+        "interests":[
+            "Python (programming language)",
+            "Java (programming language)",
+            "C Sharp (programming language)",
+            "LaTeX",
+            "SQL",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Web application",
+            "Web development",
+            "Mobile app development",
+            "Django (web framework)",
+            "Wagtail (CMS)",
+            "PostgreSQL",
+            "Bootstrap (front-end framework)",
+            "JQuery",
+            "Xamarin.Forms",
+            "Git",
+            "GitHub",
+            "Jira (software)",
+            "Visual Studio Code",
+            "Visual Studio",
+            "Eclipse (software)",
+            "Windows Subsystem for Linux"
+        ]
     }
 }
