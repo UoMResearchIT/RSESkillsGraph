@@ -1263,5 +1263,47 @@
             "Eclipse (software)",
             "Windows Subsystem for Linux"
         ]
+    },
+
+    "Bryan Gillis": {
+        "interests": [
+            "Python (programming language)",
+            "LaTeX",
+            "Markdown",
+            "Git",
+            "GitHub",
+            "Astrophysics",
+            "Bash (Unix shell)",
+            "Windows Subsystem for Linux",
+            "Microsoft Windows",
+            "C Sharp (programming language)",
+            "Project management",
+            "JSON",
+            "Software design",
+            "Eclipse (software)",
+            "Java (programming language)",
+            "C (programming language)",
+            "C++",
+            "Continuous integration",
+            "Linux",
+            "VS Code",
+            "HTML",
+            "Cascading Style Sheets",
+            "JavaScript",
+            "Web application",
+            "Web development",
+            "HPC",
+            "HTC",
+            "VirtualBox",
+            "Microsoft Azure",
+            "Amazon Web Services",
+            "Cloud computing",
+	    "Unit Testing",
+	    "Integration testing",
+	    "Profiling",
+	    "Optimisation",
+            "Verification and Validation",
+	    "Pipeline (computing)"
+        ]
     }
 }
