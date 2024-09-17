@@ -31,6 +31,16 @@ jobs:
           docker compose -f compose.yml up --wait --wait-timeout 30
           docker compose -f compose.yml down
 
-      - name: Run Pytest tests
+      - name: Take screenshot of page
+        uses: karol-brejna-i/webpage-screenshot-action@v1
+        with:
+          url: http://localhost:5000
+
+      - name: Bring down container
         run: |
-          docker compose -f compose.yml run --entrypoint "" web pytest
+          docker compose -f compose.yml down
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: screenshot
+          path: ${{ github.workspace }}/*.png
