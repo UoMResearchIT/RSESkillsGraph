@@ -293,16 +293,14 @@
 
     "Theresa Teng": {
         "interests": [
-            "Blazor",
             "ASP.NET MVC",
+	    "Agile software development",
+            "Blazor",
             "Business analysis",
             "C Sharp (programming language)",
+            "Database Design",
             "Django (web framework)",
-            "HTML",
             "JavaScript",
-            "Jira (software)",
-            "JQuery",
-            "Microsoft Windows",
             "Microsoft SQL Server",
             "Project management",
             "PostgreSQL",
@@ -311,9 +309,6 @@
             "Wagtail (CMS)",
             "Web application",
             "Web development"
-        ],
-        "technologies": [
-            "Contact Theresa for RSE projects in FHUM"
         ]
     },
 
