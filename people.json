@@ -1306,7 +1306,7 @@
         "interests": [
             "Java (programming language)",
             "HTML",
-            "Cascading Style Sheets",
+            "CSS",
             "JavaScript",
             "SQL",
             "XML",
@@ -1316,7 +1316,7 @@
             "Web development",
             "Object-oriented analysis and design",
             "Apache Tomcat",
-            "VS Code"
+            "Visual Studio Code"
         ]
     }
 }
