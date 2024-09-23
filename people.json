@@ -1300,5 +1300,23 @@
             "Verification and Validation",
 	    "Pipeline (computing)"
         ]
+    },
+
+    "Lasse Schmieding": {
+        "interests": [
+            "Java (programming language)",
+            "HTML",
+            "Cascading Style Sheets",
+            "JavaScript",
+            "SQL",
+            "XML",
+            "JSON",
+            "Git",
+            "Unit Testing",
+            "Web development",
+            "Object-oriented analysis and design",
+            "Apache Tomcat",
+            "VS Code"
+        ]
     }
 }
