@@ -133,6 +133,7 @@ def canonical_title(topic):
         'action': 'query',
         'titles': topic,
         'format': 'json',
+        'redirects' : True,
     }
 
     data = urllib.parse.urlencode(values)
