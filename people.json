@@ -1318,5 +1318,31 @@
             "Apache Tomcat",
             "Visual Studio Code"
         ]
+    },
+
+    "Toni Price": {
+        "interests": [
+            "R (programming language)",
+            "Python (programming language)",
+            "Java (programming language)",
+            "Software testing",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SQL",
+            "Web development",
+            "Shiny (software)",
+            "GIMP",
+            "Bash (Unix shell)",
+            "Linux",
+            "Web scraping",
+            "Data wrangling",
+            "Data analysis",
+            "Data and information visualization",
+            "Statistical methods",
+            "Monte Carlo method",
+            "RMarkdown",
+            "LaTeX"
+        ]
     }
 }
