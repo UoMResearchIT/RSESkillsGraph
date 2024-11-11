@@ -1022,7 +1022,7 @@
     "Jonny Taylor": {
         "interests":[
             "Python (programming language)",
-            "Igor Pro",
+            "IGOR Pro",
             "C++/CLI",
             "Machine learning",
             "Data wrangling",
@@ -1031,7 +1031,7 @@
             "Pandas (software)",
             "Git",
             "Atmospheric science",
-            "Environmental Science",
+            "Environmental science",
             "Meteorology",
             "Physics",
             "Time series",
@@ -1040,7 +1040,9 @@
             "TensorFlow",
             "Keras",
             "Arduino",
-            "LaTeX"
+            "LaTeX",
+            "Pytorch",
+            "Large language model"
         ]
     },
 
