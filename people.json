@@ -1303,14 +1303,16 @@
             "CSS",
             "JavaScript",
             "SQL",
-            "XML",
-            "JSON",
             "Git",
             "Unit Testing",
             "Web development",
             "Object-oriented analysis and design",
-            "Apache Tomcat",
-            "Visual Studio Code"
+            "Python (programming language)",
+            "Docker (software)",
+	        "FastAPI",
+            "Django (web framework)",
+            "Wagtail (CMS)",
+            "D3.js"
         ]
     },
 
