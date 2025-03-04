@@ -6,13 +6,9 @@ This is the RSE Skills Graph web app written in Python 3 with the Flask framewor
 There is an existing deployment hosted [here](https://rseskillsgraph.itservices.manchester.ac.uk/). You can click on RSEs' names and see their skills, as well as search by skill.
 
 # How to Add / Update
-To add or update a person's entry, modify the JSON entry in `people.json`. People with spaces in their surname should use underscore e.g. Le_Blanc.
-It will be displayed properly with a space. The "interests" for each person need to come from Wikipedia main entries - that is our controlled vocabulary.
+The data source for the skills graph is [CapX](https://balex.itservices.manchester.ac.uk). To add or update a person's entry, simply modify their associated skills in CapX and the graph will automatically update the next time it loads.
 
-The JSON is fairly obvious. There are two levels, called "interests" and "technologies". Interests are clickable, but technologies not. Some browsers let you right-click a technology and look up its definition. In the RSE-skills application we really just use Interests, so everything is clickable. We do use technologies sparingly as commentary.
-
-# What do I add?
-You should add "interests" if you feel confident on being selected to work on a project where that technology is the main technology used then add it as an interest.
+Managers have the ability to add new skill options as necessary and where possible, the skills tags will link to a Wikipedia main article through their controlled name.
 
 # How to Install / Run
 The `requirements.txt` should contain the Python modules needed.
