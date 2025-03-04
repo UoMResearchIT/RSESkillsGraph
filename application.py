@@ -57,8 +57,14 @@ class TitleNotFoundException(Exception):
 
 
 def get_people():
-    filepath = os.path.abspath(os.path.join(os.path.dirname(__file__), 'people.json'))
-    return get_file_contents(filepath)
+    url = 'https://api.balex.its.manchester.ac.uk/skills/getAllGrouped'
+    try:
+        response = urllib.request.urlopen(url)
+        data = json.loads(response.read())
+    except Exception as e:
+        print(f'Error fetching data from API: {e}', file=sys.stderr)
+        sys.exit(1)
+    return data
 
 # thanks to Colin Morris for adding this code originally
 def get_skills_list():
@@ -74,23 +80,6 @@ def get_skills_list():
 
     skills_list_new = OrderedDict(natsort.natsorted(skills_list.items()))
     return skills_list_new
-
-
-def get_file_contents(filename):
-    data = None
-
-    try:
-        fp = open(filename, 'rb')
-        try:
-            contents = fp.read()
-            data = json.loads(contents)
-        finally:
-            fp.close()
-    except IOError:
-        print('Could not open JSON file:' + filename, file=sys.stderr)
-        sys.exit(1)
-
-    return data
 
 def get_titles(topic):
     url = 'https://en.wikipedia.org/w/api.php'
