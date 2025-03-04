@@ -64,19 +64,25 @@ def get_people():
     except Exception as e:
         print(f'Error fetching data from API: {e}', file=sys.stderr)
         sys.exit(1)
-    return data
+    
+    # Transform the data to match the old format
+    transformed_data = {}
+    for person, skills in data.items():
+        transformed_data[person] = {
+            "interests": [skill["controlledName"] for skill in skills]
+        }
+    return transformed_data
 
 # thanks to Colin Morris for adding this code originally
 def get_skills_list():
     skills_list = {}
     json_results = get_people()
     for supervisor, data in json_results.items():
-        for section in data:
-            for item in json_results[str(supervisor)][section]:
-                if item not in skills_list:
-                    skills_list[item] = 1;
-                else:
-                    skills_list[item] = skills_list[item] +1;
+        for item in data["interests"]:
+            if item not in skills_list:
+                skills_list[item] = 1
+            else:
+                skills_list[item] += 1
 
     skills_list_new = OrderedDict(natsort.natsorted(skills_list.items()))
     return skills_list_new
