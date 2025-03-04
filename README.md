@@ -2,11 +2,10 @@
 This is the RSE Skills Graph web app written in Python 3 with the Flask framework. Original code by Steve Pettifer; mods by Ian Cottam, Colin Morris, Ian Hinder; The University of Manchester; Apache 2 Licence
 
 # How to Use
-
-There is an existing deployment hosted [here](https://rseskillsgraph.itservices.manchester.ac.uk/). You can click on RSEs' names and see their skills, as well as search by skill.
+There is an existing deployment hosted [here](https://rseskillsgraph.itservices.manchester.ac.uk/). You can click on RSEs' names and see their skills, as well as search by skill. The data source for the skills graph is [CapX](https://balex.itservices.manchester.ac.uk). The use of its API requires an API key that must be set as an environment variable called `CAPX_API_KEY` for the retreival of the data to succeed.
 
 # How to Add / Update
-The data source for the skills graph is [CapX](https://balex.itservices.manchester.ac.uk). To add or update a person's entry, simply modify their associated skills in CapX and the graph will automatically update the next time it loads.
+To add or update a person's entry, simply modify their associated skills in CapX and the graph will automatically update the next time it loads.
 
 Managers have the ability to add new skill options as necessary and where possible, the skills tags will link to a Wikipedia main article through their controlled name.
 
