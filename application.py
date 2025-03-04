@@ -58,8 +58,11 @@ class TitleNotFoundException(Exception):
 
 def get_people():
     url = 'https://api.balex.its.manchester.ac.uk/skills/getAllGrouped'
+    api_key = os.getenv('API_KEY')
+    headers = {'x-api-key': api_key}
     try:
-        response = urllib.request.urlopen(url)
+        request = urllib.request.Request(url, headers=headers)
+        response = urllib.request.urlopen(request)
         data = json.loads(response.read())
     except Exception as e:
         print(f'Error fetching data from API: {e}', file=sys.stderr)
