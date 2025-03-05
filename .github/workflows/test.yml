@@ -12,13 +12,27 @@ jobs:
 
     permissions:
       contents: read
+
+    env:
+      API_URL: https://api.balex.its.manchester.ac.uk/skills/getAllGrouped
+      API_KEY: ${{ secrets.API_KEY }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Test people.json is valid JSON
+      - name: Test API response
         run: |
-          python3 -c 'import json; json.load(open("people.json"))'
+          response=$(curl -s -o /dev/null -w "%{http_code}" -H "x-api-key: $API_KEY" $API_URL)
+          if [ "$response" -ne 200 ]; then
+            echo "API response is not 200 OK. Response code: $response"
+            exit 1
+          fi
+          
+      - name: Test API response is valid JSON
+        run: |
+          response=$(curl -s -H "x-api-key: $API_KEY" $API_URL)
+          python3 -c 'import json; json.loads("""$response""")'
 
       - name: Test image builds
         run: |
