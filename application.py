@@ -57,7 +57,7 @@ class TitleNotFoundException(Exception):
 
 
 def get_people():
-    url = 'https://api.balex.its.manchester.ac.uk/skills/getAllGrouped'
+    url = 'https://balex.its.manchester.ac.uk/api/skills/getAllGrouped'
     api_key = os.getenv('CAPX_API_KEY')
     headers = {'x-api-key': api_key}
     try:
