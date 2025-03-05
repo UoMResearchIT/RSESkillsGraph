@@ -15,7 +15,7 @@ jobs:
 
     env:
       API_URL: https://balex.its.manchester.ac.uk/api/skills/getAllGrouped
-      API_KEY: ${{ secrets.API_KEY }}
+      API_KEY: ${{ secrets.CAPX_API_KEY }}
 
     steps:
       - name: Checkout repository
