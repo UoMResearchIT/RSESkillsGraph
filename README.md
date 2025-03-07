@@ -23,6 +23,9 @@ There is an instance of this software running at the University of Manchester on
 
 There is documentation for running in Microsoft Azure: [Running in Docker on Azure](doc/RunningOnAzureWithDocker.md).
 
+### Docker Compose
+It can also be run using `docker-compose up` with the optional `-build` flag to force an image rebuild. Be sure to `export CAPX_API_KEY='your-api-key-here'` first so it is accessible from within the container.
+
 # Headshots
 Portrait images of people can be included in an images directory, but we don't use that faclity at the moment.
 
