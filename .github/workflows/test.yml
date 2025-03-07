@@ -14,7 +14,7 @@ jobs:
       contents: read
 
     env:
-      API_URL: https://balex.its.manchester.ac.uk/api/skills/getAllGrouped
+      API_URL: https://balextest.itservices.manchester.ac.uk/api/skills/getAllGrouped
       API_KEY: ${{ secrets.CAPX_API_KEY }}
 
     steps:
