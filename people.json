@@ -1343,5 +1343,43 @@
             "RMarkdown",
             "LaTeX"
         ]
+    },
+
+    "Ettore Murabito" : {
+        "interests": [
+            "React (software)",
+            "Svelte",
+            "Vue.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub",
+            "Python (programming language)",
+            "PyQt",
+            "Physics",
+            "Smart city",
+            "REST",
+            "Web development",
+            "Web application",
+            "FastAPI",
+            "Object-oriented programming",
+            "SOLID",
+            "Design patterns",
+            "Tailwind",
+            "Agile software development",
+            "Project management",
+            "SQL",
+            "Visual Studio",
+            "JSON",
+            "Jira",
+            "Model View Controller",
+            "Model view viewmodel",
+            "Software Testing"
+        ]
     }
 }
