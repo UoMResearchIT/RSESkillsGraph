@@ -318,7 +318,7 @@
     "Theresa Teng": {
         "interests": [
             "ASP.NET MVC",
-	    "Agile software development",
+	        "Agile software development",
             "Blazor",
             "Business analysis",
             "C Sharp (programming language)",
@@ -481,14 +481,14 @@
             "Fortran",
             "Make (software)",
             "Bash (Unix shell)",
-	    "Machine Learning",
-	    "Data Science",
-	    "Agile software development",
-	    "FastAPI",
-	    "Markdown",
-	    "Github",
-	    "Artificial intelligence",
-	    "Message Passing Interface"
+            "Machine Learning",
+            "Data Science",
+            "Agile software development",
+            "FastAPI",
+            "Markdown",
+            "Github",
+            "Artificial intelligence",
+            "Message Passing Interface"
         ]
     },
 
@@ -1347,7 +1347,7 @@
 
     "Ettore Murabito" : {
         "interests": [
-            "React (software)",
+            "React",
             "Svelte",
             "Vue.js",
             "Node.js",
