@@ -29,8 +29,17 @@ jobs:
           # Launch the project from docker-compose.yml and wait up to
           # 30s for its built-in health check to return "healthy"
           docker compose -f compose.yml up --wait --wait-timeout 30
+
+      - name: Take screenshot of page
+        uses: karol-brejna-i/webpage-screenshot-action@v1
+        with:
+          url: http://localhost:5000
+
+      - name: Bring down container
+        run: |
           docker compose -f compose.yml down
 
-      - name: Run Pytest tests
-        run: |
-          docker compose -f compose.yml run --entrypoint "" web pytest
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshot
+          path: ${{ github.workspace }}/*.png
