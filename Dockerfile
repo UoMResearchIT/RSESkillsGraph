@@ -35,6 +35,7 @@ ENV LAST_UPDATE=$last_update
 
 EXPOSE 5000
 ENV FLASK_APP=application.py
+ENV PYTHONUNBUFFERED=1
 
 ENTRYPOINT [ "flask" ]
 
