@@ -58,7 +58,10 @@ class TitleNotFoundException(Exception):
 
 def get_people():
     url = 'https://balextest.itservices.manchester.ac.uk/api/skills/getAllGrouped'
-    api_key = os.getenv('CAPX_API_KEY')
+    key_var = 'CAPX_API_KEY'
+    api_key = os.getenv(key_var)
+    if api_key is None:
+        raise RuntimeError(f"API key for CapX is not set in {key_var}; unable to retrieve skills data")
     headers = {'x-api-key': api_key}
     request = urllib.request.Request(url, headers=headers)
     response = urllib.request.urlopen(request)
