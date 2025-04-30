@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 
 import application
-import os
-import requests
-import json
-import pytest_mock
-from pprint import pprint
 
 # This test should be run against the capxmock service
 def test_get_people(mocker):
