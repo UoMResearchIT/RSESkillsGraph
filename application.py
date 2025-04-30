@@ -196,7 +196,9 @@ def build_graph(name, results, topics):
     people = get_people()
 
     for person in results:
-        forename, surname = person.lower().split()
+        person_names = person.lower().split()
+        forename = person_names[0]
+        surname = " ".join(person_names[1:])
 
         image_file = 'anonymous.png'
         image_files = get_image_files()
