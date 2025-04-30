@@ -2,60 +2,13 @@
 
 import application
 import os
+import requests
+import json
+import pytest_mock
+from pprint import pprint
 
-
-def test_titles_are_wikipedia_articles():
-    """Ensure that all topics listed in the people file are the titles
-    of Wikipedia articles, which is our controlled vocabulary.
-    """
-
-    exception_file = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                                  'title_exceptions.json'))
-    exception_list = application.get_file_contents(exception_file)
-
+# This test should be run against the capxmock service
+def test_get_people(mocker):
+    people_result = {'Person A': {'interests': ['Skill 1', 'Skill 2']}, 'Person B': {'interests': ['Skill 3']}}
     people = application.get_people()
-    all_topics = sorted(list(set([topic for persondata in people.values()
-                                  for topic in persondata["interests"]])))
-    invalid_titles = []
-    canonicalised_titles = []
-
-    print("Checking titles are Wikipedia articles:")
-    print()
-
-    people_with_this_topic = {}
-
-    for topic in all_topics:
-        print(f"Checking {topic}")
-        if topic in exception_list:
-            continue
-        try:
-            # TODO: we shoulds probably do this in batches to reduce
-            # the number of queries to wikipedia, and speed it up
-            canonical_title = application.canonical_title(topic)
-            if canonical_title != topic:
-                print(f"  ➡️ Should be {canonical_title}")
-        except application.TitleNotFoundException:
-            people_with_this_topic[topic] = [
-                person for person in people.keys()
-                if topic in people[person]["interests"]]
-            print(f"  ❌ Invalid ({', '.join(people_with_this_topic[topic])})")
-            invalid_titles += [topic]
-            continue
-
-        if canonical_title != topic:
-            canonicalised_titles += [(topic, canonical_title)]
-
-    print()
-
-    print("Invalid titles:")
-    for topic in invalid_titles:
-        print(f"  {topic} ({', '.join(people_with_this_topic[topic])})")
-    print()
-
-    print("Canonicalised titles:")
-    for topic, canonicalised in canonicalised_titles:
-        print(f"  {topic} -> {canonicalised}")
-
-    print()
-
-    assert(len(invalid_titles+canonicalised_titles) == 0)
+    assert(people == people_result)

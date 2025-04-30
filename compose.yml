@@ -4,3 +4,6 @@ services:
     build: .
     ports:
       - "5000:5000"
+    environment:
+      - CAPX_API_KEY=${CAPX_API_KEY:?}
+      - CAPX_URL=${CAPX_URL:?}

@@ -55,23 +55,22 @@ print('GV_FILE_PATH: ' + os.environ['GV_FILE_PATH'], file=sys.stderr)
 class TitleNotFoundException(Exception):
     pass
 
+def getvar(varname):
+    if varname in os.environ:
+        return os.environ[varname]
+    else:
+        raise RuntimeError(f"{varname} not defined")        
 
 def get_people():
-    url = 'https://balextest.itservices.manchester.ac.uk/api/skills/getAllGrouped'
-    key_var = 'CAPX_API_KEY'
-    api_key = os.getenv(key_var)
-    if api_key is None:
-        raise RuntimeError(f"API key for CapX is not set in {key_var}; unable to retrieve skills data")
-    headers = {'x-api-key': api_key}
+    url = getvar("CAPX_URL") + "/api/skills/getAllGrouped"
+    headers = {'x-api-key': getvar("CAPX_API_KEY")}
     request = urllib.request.Request(url, headers=headers)
     response = urllib.request.urlopen(request)
     data = json.loads(response.read())
-    
-    # Transform the data to match the old format
     transformed_data = {}
-    for person, skills in data.items():
-        transformed_data[person] = {
-            "interests": [skill["controlledName"] for skill in skills]
+    for persondata in data:
+        transformed_data[persondata["name"]] = {
+            "interests": [skill["controlledName"] for skill in persondata["skills"]]
         }
     return transformed_data
 
