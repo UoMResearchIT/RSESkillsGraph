@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/api/skills/getAllGrouped"
+  },
+  "response": {
+      "body":
+      [{"name": "Person A",
+	"skills": [{"controlledName": "Skill 1",
+		    "hasValidWikiLink": 2,
+		    "name": "Skill 1",
+		    "rareness": 2,
+		    "rarenessCount": 7,
+		    "skillTagId": 1,
+		    "tasksNeedingThisSkill": null},
+		   {"controlledName": "Skill 2",
+		    "hasValidWikiLink": 2,
+		    "name": "Skill 2",
+		    "rareness": 2,
+		    "rarenessCount": 7,
+		    "skillTagId": 1,
+		    "tasksNeedingThisSkill": null}]},
+       {"name": "Person B",
+	"skills": [{"controlledName": "Skill 3",
+		    "hasValidWikiLink": 2,
+		    "name": "Skill 3",
+		    "rareness": 2,
+		    "rarenessCount": 7,
+		    "skillTagId": 1,
+		    "tasksNeedingThisSkill": null}]}]
+  }
+}

@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 # Maintainer of the docker image, not the code!
-MAINTAINER "Ian Hinder <ian.hinder@manchester.ac.uk>"
+LABEL maintainer="Ian Hinder <ian.hinder@manchester.ac.uk>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -35,6 +35,7 @@ ENV LAST_UPDATE=$last_update
 
 EXPOSE 5000
 ENV FLASK_APP=application.py
+ENV PYTHONUNBUFFERED=1
 
 ENTRYPOINT [ "flask" ]
 
