@@ -1,0 +1,13 @@
+Click
+Flask
+itsdangerous
+Jinja2
+lxml
+MarkupSafe
+natsort
+pygraphviz
+pyparsing
+pytest
+urllib3
+Werkzeug
+pip-tools

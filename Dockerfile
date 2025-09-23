@@ -13,6 +13,7 @@ RUN apt-get update -y && \
     pkg-config \
     graphviz \
     libgraphviz-dev \
+    libxslt1-dev \
     curl && \
     rm -rf /var/lib/apt/lists/*
 # Note: the ordering of these packages matters as libgraphviz-dev requires python3-pip
@@ -44,4 +45,4 @@ CMD [ "run", "-h", "0.0.0.0"]
 # TODO: in docker 25 and later, we should use --start-interval and
 # --start-period to perform more frequent checks on startup to speed
 # up tests
-HEALTHCHECK --interval=10s CMD curl --fail http://localhost:5000 || exit 1   
+HEALTHCHECK --interval=10s CMD curl --fail http://localhost:5000 || exit 1
