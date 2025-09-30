@@ -6,27 +6,12 @@
   "response": {
       "body":
       [{"name": "Person A",
-	"skills": [{"controlledName": "Skill 1",
-		    "hasValidWikiLink": 2,
-		    "name": "Skill 1",
-		    "rareness": 2,
-		    "rarenessCount": 7,
-		    "skillTagId": 1,
-		    "tasksNeedingThisSkill": null},
-		   {"controlledName": "Skill 2",
-		    "hasValidWikiLink": 2,
-		    "name": "Skill 2",
-		    "rareness": 2,
-		    "rarenessCount": 7,
-		    "skillTagId": 1,
-		    "tasksNeedingThisSkill": null}]},
+	    "skills": [{"name": "Skill 1",
+		            "skillTagId": 1},
+		           {"name": "Skill 2",
+		            "skillTagId": 1}]},
        {"name": "Person B",
-	"skills": [{"controlledName": "Skill 3",
-		    "hasValidWikiLink": 2,
-		    "name": "Skill 3",
-		    "rareness": 2,
-		    "rarenessCount": 7,
-		    "skillTagId": 1,
-		    "tasksNeedingThisSkill": null}]}]
+	    "skills": [{"name": "Skill 3",
+		            "skillTagId": 1}]}]
   }
 }
