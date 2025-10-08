@@ -11,7 +11,12 @@
 <body>
 	<img src="{{ url_for('static', filename='images/uom-logo.png') }}" width="150" height="64">
 	<form name="topic_keyword" action="{{ url_for('topic_search') }}" method="get">
-		<input type="text" name="topic" size="50">
+		<input type="text" name="topic"size="50" list="skills" placeholder="Enter topic">
+		<datalist id="skills">
+            {% for skill in skills %}
+            <option value="{{ skill }}">{{ skill }}</option>
+            {% endfor %}
+        </datalist>
 		<input type="submit" value="Search Topics">
 	</form>
 	{% block content %}{% endblock %}

@@ -232,7 +232,8 @@ def index():
     graph = build_graph(graph_name, results, topics)
     graph_str = get_graph_string(graph)
     interests_links = get_interests_links()
-    return render_template('graph.html', name=graph_name, node_count=len(graph.nodes()), graph=graph_str, interests=interests_links)
+
+    return render_template('graph.html', name=graph_name, node_count=len(graph.nodes()), graph=graph_str, interests=interests_links, skills=get_skills())
 
 
 def get_interests_links():
@@ -250,7 +251,7 @@ def get_interests_links():
 def show_person(name=None):
     if not name:
         interests_links = get_interests_links()
-        return render_template('notfound.html', interests=interests_links)
+        return render_template('notfound.html', interests=interests_links, skills=get_skills())
 
     graph_name = name.replace('_', ' ') + "'s skills"
 
@@ -263,10 +264,10 @@ def show_person(name=None):
     if graph is False:
         pname=name
         interests_links = get_interests_links()
-        return render_template('notfound.html', search_term=pname, interests=interests_links)
+        return render_template('notfound.html', search_term=pname, interests=interests_links, skills=get_skills())
     graph_str = get_graph_string(graph)
 
-    return render_template('graph.html', name=graph_name, node_count=len(graph.nodes()), graph=graph_str)
+    return render_template('graph.html', name=graph_name, node_count=len(graph.nodes()), graph=graph_str, skills=get_skills())
 
 
 @app.route('/topic/<name>')
@@ -294,13 +295,13 @@ def show_topic(name):
 
     graph = build_graph(graph_name, results, topics)
     graph_str = get_graph_string(graph)
-    return render_template('graph.html', name=graph_name, node_count=len(graph.nodes()), graph=graph_str, interests=interests_links)
+    return render_template('graph.html', name=graph_name, node_count=len(graph.nodes()), graph=graph_str, interests=interests_links, skills=get_skills())
 
 # 2019-04-08 | New : Try to handle empty search
 @app.route('/topic/')
 def show_topic_notfound():
     interests_links = get_interests_links()
-    return render_template('notfound.html', interests=interests_links)
+    return render_template('notfound.html', interests=interests_links, skills=get_skills())
 
 @app.route('/topic-search')
 def topic_search():
