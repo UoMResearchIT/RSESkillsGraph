@@ -70,7 +70,7 @@ def get_people():
     transformed_data = {}
     for persondata in data:
         transformed_data[persondata["name"]] = {
-            "interests": [skill["controlledName"] for skill in persondata["skills"]]
+            "interests": [skill["name"] for skill in persondata["skills"]]
         }
     return transformed_data
 
