@@ -88,38 +88,6 @@ def get_skills_list():
     skills_list_new = OrderedDict(natsort.natsorted(skills_list.items()))
     return skills_list_new
 
-def get_titles(topic):
-    url = 'https://en.wikipedia.org/w/api.php'
-    values = {
-        'action' : 'query',
-        'list' : 'search',
-        'srwhat' : 'text',
-        'srsearch' : topic.encode('utf8'),
-        'format' : 'json',
-        'srlimit' : '40'
-    }
-    
-    ## Big urllib change for Python 3 below...
-    #data = urllib.urlencode(values) # Python 2
-    data = urllib.parse.urlencode(values)
-    data = data.encode('utf-8') # necessary for python 3
-
-    request = urllib.request.Request(url, data)
-    #response = urllib2.urlopen(request) # Python 3 version below
-    response = urllib.request.urlopen(request) 
-    json_response = response.read()
-    json_result = json.loads(json_response)
-
-    try:
-        results = []
-        for result in json_result['query']['search']:
-            results.append(result['title'])
-    except:
-        results = []
-        print("ERROR: no title found for topic: " + topic.encode('utf8'))
-
-    return results
-
 
 def canonical_title(topic):
     """Query wikipedia to find the canonical title of a topic"""
@@ -243,6 +211,12 @@ def build_graph(name, results, topics):
 
     return graph
 
+def get_skills():
+    """Returns the list of skills"""
+    skills_list = get_skills_list()
+    skills = [p for p in skills_list]
+    return skills
+
 @app.route('/')
 def index():
     graph_name = 'UoM Research Software Engineers and their skills'
@@ -301,7 +275,9 @@ def show_topic(name):
     graph_name = 'UoM RSEs and their skills related to ' + name
 
     results = set()
-    topics = get_titles(name)
+    # We could implement a fuzzy search algorithm here, but it would make it hard to search
+    # for things like "C" without adding options for "exact match" etc.
+    topics = [skill for skill in get_skills() if name.lower() == skill.lower()]
 
     people = get_people()
     interests_links = get_interests_links()
