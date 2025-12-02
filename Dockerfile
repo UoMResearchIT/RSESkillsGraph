@@ -1,22 +1,13 @@
-FROM ubuntu:20.04
+FROM python:3.14-alpine
 
 # Maintainer of the docker image, not the code!
 LABEL maintainer="Ian Hinder <ian.hinder@manchester.ac.uk>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update -y && \
-    apt-get install -y \
-    python3 \
-    python3-pip \
-    python3-requests \
-    pkg-config \
-    graphviz \
-    libgraphviz-dev \
-    libxslt1-dev \
-    curl && \
-    rm -rf /var/lib/apt/lists/*
-# Note: the ordering of these packages matters as libgraphviz-dev requires python3-pip
+RUN apk add build-base
+
+RUN apk add graphviz graphviz-dev
 
 COPY ./requirements.txt /app/requirements.txt
 
