@@ -188,7 +188,7 @@ def build_graph(name, results, topics):
                 color = '#105060EE'
                 shape = 'ellipse'
 
-            label = re.sub('\(.*\)', '', interest)
+            label = re.sub(r'\(.*\)', '', interest)
 
             graph.add_node(interest, label = label, style = 'filled', fontname = 'Helvetica', shape = shape, color = color, fontcolor = 'white', URL = url_for('show_topic', name = interest))
             graph.add_edge(person, interest, color = '#00000050')
@@ -202,7 +202,7 @@ def build_graph(name, results, topics):
                     color = '#701050EE'
                     shape = 'ellipse'
 
-                label = re.sub('\(.*\)', '', technology)
+                label = re.sub(r'\(.*\)', '', technology)
 
                 graph.add_node(technology, label = label, style = 'filled', fontname = 'Helvetica', shape = shape, color = color, fontcolor = 'white')
                 graph.add_edge(person, technology, color = '#00000050')
