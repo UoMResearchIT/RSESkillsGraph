@@ -76,7 +76,14 @@ def get_people():
 
 # thanks to Colin Morris for adding this code originally
 def get_skills_list():
-    skills_list = {}
+    #skills_list = {}
+    # Prime skills_list with data from CapX -- allows for legal skills which are not retrived by people query. #138
+    url = getvar("CAPX_URL") + "/api/skills/getAll"
+    headers = {'x-api-key': getvar("CAPX_API_KEY")}
+    request = urllib.request.Request(url, headers=headers)
+    response = urllib.request.urlopen(request)
+    data = json.loads(response.read())
+    skills_list = {skill["name"]: 0 for skill in data if "name" in skill}
     json_results = get_people()
     for supervisor, data in json_results.items():
         for item in data["interests"]:
