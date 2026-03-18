@@ -47,10 +47,9 @@ app = Flask(__name__)
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1)
 
 os.environ['PATH'] = os.environ['PATH'] + ':/usr/local/bin'
-os.environ['GV_FILE_PATH'] = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static/images/')) + '/'
+IMAGE_FILE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static/images'))
 
 print('PATH: ' + os.environ['PATH'], file=sys.stderr)
-print('GV_FILE_PATH: ' + os.environ['GV_FILE_PATH'], file=sys.stderr)
 
 class TitleNotFoundException(Exception):
     pass
@@ -141,14 +140,14 @@ def get_graph_string(graph):
     # URL to an image, only the file path.
     for image in images:
         image_filename = image.attrib['{http://www.w3.org/1999/xlink}href']
-        image_url = url_for('static', filename = 'images/' + image_filename)
+        image_url = url_for('static', filename = 'images/' + image_filename.replace(f"{IMAGE_FILE_PATH}/",""))
         image.attrib['{http://www.w3.org/1999/xlink}href'] = image_url
 
     return etree.tostring(svg_obj, pretty_print = True).decode('utf-8')
 
 def get_image_files():
     image_files = []
-    image_dir = os.environ['GV_FILE_PATH']
+    image_dir = IMAGE_FILE_PATH
 
     for root, sub_folders, files in os.walk(image_dir):
         for filename in files:
@@ -177,7 +176,7 @@ def build_graph(name, results, topics):
 
         # check added for _ in name e.g. Anja Le_Blanc; that is: convert _ to space
         myperson= person.replace(' ', '\n')
-        graph.add_node(person, label = myperson.replace('_' , ' '), fontname = 'Helvetica', fixedsize = True, imagescale = True, width = '1.5', height = '1.5', fontcolor = 'white', shape = 'circle', style = 'filled', color = '#303030', URL = url_for('show_person', name = person), image = image_file)
+        graph.add_node(person, label = myperson.replace('_' , ' '), fontname = 'Helvetica', fixedsize = True, imagescale = True, width = '1.5', height = '1.5', fontcolor = 'white', shape = 'circle', style = 'filled', color = '#303030', URL = url_for('show_person', name = person), image = f"{IMAGE_FILE_PATH}/{image_file}")
 
         interests = people[person]['interests']
         for interest in interests:
