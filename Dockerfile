@@ -9,6 +9,8 @@ RUN apk add build-base
 
 RUN apk add graphviz graphviz-dev
 
+RUN apk add curl
+
 COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
